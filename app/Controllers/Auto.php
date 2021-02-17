@@ -17,7 +17,7 @@ class Auto extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -76,7 +76,7 @@ class Auto extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();

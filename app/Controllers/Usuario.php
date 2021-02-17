@@ -91,7 +91,7 @@ class Usuario extends BaseController
 	public function logout()
 	{
 		$this->session->destroy();
-		return redirect()->to('/admin');
+		return redirect()->to('/');
 	}
 
 	public function list()
@@ -99,7 +99,7 @@ class Usuario extends BaseController
 		helper('form');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$pagina = 0;
@@ -166,7 +166,7 @@ class Usuario extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -214,7 +214,7 @@ class Usuario extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$security = \Config\Services::security();
@@ -238,7 +238,7 @@ class Usuario extends BaseController
 		helper(['form', 'url']);
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -375,7 +375,7 @@ class Usuario extends BaseController
 
 			echo view('admin/usuario/nova_senha', $data);
 		} else {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 	}
 

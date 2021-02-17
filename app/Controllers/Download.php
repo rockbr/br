@@ -12,7 +12,7 @@ class Download extends BaseController
 	public function index()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$data_header = array('session' => $this->session);

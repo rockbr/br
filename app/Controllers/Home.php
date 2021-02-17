@@ -14,7 +14,7 @@ class Home extends BaseController
 	public function index()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 		
 		$util = new Util();

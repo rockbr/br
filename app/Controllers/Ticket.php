@@ -19,7 +19,7 @@ class Ticket extends BaseController
 		helper('form');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$pagina = 0;
@@ -89,7 +89,7 @@ class Ticket extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -160,7 +160,7 @@ class Ticket extends BaseController
 		helper('form', 'url');
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$security = \Config\Services::security();
@@ -185,7 +185,7 @@ class Ticket extends BaseController
 		helper(['form', 'url']);
 
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();

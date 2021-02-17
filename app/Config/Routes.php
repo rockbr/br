@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('admin');
+$routes->setDefaultController('Usuario');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -38,7 +38,6 @@ $routes->get('download/(:any)', 'Download::download/$1');
 
 $routes->post('home', 'Home::index');
 
-$routes->get('admin', 'Usuario::index');
 $routes->post('login', 'Usuario::login');
 $routes->get('logout', 'Usuario::logout');
 $routes->get('resetsenha', 'Usuario::resetSenha');

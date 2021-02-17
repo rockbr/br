@@ -17,7 +17,7 @@ class Util extends BaseController
 	public function comboProdutosVendasMesAno()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -38,7 +38,7 @@ class Util extends BaseController
 	public function comboSituacaoTicket()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -59,7 +59,7 @@ class Util extends BaseController
 	public function comboPrioridadeTicket()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -80,7 +80,7 @@ class Util extends BaseController
 	public function comboCategoriaTicket()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -101,7 +101,7 @@ class Util extends BaseController
 	public function comboCategoriaTicketFiltro($categorias)
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -114,7 +114,7 @@ class Util extends BaseController
 	public function comboFormaPagamento()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -134,7 +134,7 @@ class Util extends BaseController
 	public function comboSituacaoCompra()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -155,7 +155,7 @@ class Util extends BaseController
 	public function comboPrioridadeCompra()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -176,7 +176,7 @@ class Util extends BaseController
 	public function comboCategoriaCompra()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -197,7 +197,7 @@ class Util extends BaseController
 	public function comboGrupoUsuario()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -220,7 +220,7 @@ class Util extends BaseController
 	public function comboGrupoPessoa()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -239,7 +239,7 @@ class Util extends BaseController
 	public function comboGrupoProduto()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -258,7 +258,7 @@ class Util extends BaseController
 	public function comboEstado()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -276,7 +276,7 @@ class Util extends BaseController
 	public function comboUsuario()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -295,7 +295,7 @@ class Util extends BaseController
 	public function comboCliente()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -314,7 +314,7 @@ class Util extends BaseController
 	public function comboFornecedor()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
@@ -333,7 +333,7 @@ class Util extends BaseController
 	public function comboProduto()
 	{
 		if (!$this->session->get('logado')) {
-			return redirect()->to('/admin');
+			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
