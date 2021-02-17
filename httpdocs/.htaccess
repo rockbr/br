@@ -27,8 +27,8 @@ Options All -Indexes
 	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 	
 	#For�ar o www.:
-	RewriteCond %{HTTP_HOST} ^fetx.com.br [NC]
-	RewriteRule ^(.*)$ http://www.fetx.com.br/$1 [L,R=301,NC]
+	RewriteCond %{HTTP_HOST} ^adm.brcosmetic.com [NC]
+	RewriteRule ^(.*)$ http://adm.brcosmetic.com/$1 [L,R=301,NC]
 
 	# Checks to see if the user is attempting to access a valid file,
     # such as an image or css document, if this isn't true it sends the
