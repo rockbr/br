@@ -25,9 +25,9 @@ class Home extends BaseController
 		$data = array(
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_home', $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_home', $data);
+		echo view('admin/main_footer');
 	}
 
 

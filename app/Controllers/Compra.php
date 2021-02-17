@@ -79,9 +79,9 @@ class Compra extends BaseController
 
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_list',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_list',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function cadastro($id = null)
@@ -156,9 +156,9 @@ class Compra extends BaseController
 			'url_salvar_produtos' => 'salvaprodutos'
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/compra/cadastro_compra',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/compra/cadastro_compra',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function delete()

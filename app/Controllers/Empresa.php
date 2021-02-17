@@ -75,9 +75,9 @@ class Empresa extends BaseController
 			'url' => site_url('consultaempresas'),
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_list',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_list',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function cadastro($id = null)
@@ -209,9 +209,9 @@ class Empresa extends BaseController
 			'estados' => $util->comboEstado(),
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/empresa/cadastro_' . $this->tabela,  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/empresa/cadastro_' . $this->tabela,  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function delete()

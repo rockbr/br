@@ -17,9 +17,9 @@ class Download extends BaseController
 
 		$data_header = array('session' => $this->session);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_download');
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_download');
+		echo view('admin/main_footer');
 	}
 
 	public function download($name)

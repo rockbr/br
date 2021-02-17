@@ -79,9 +79,9 @@ class Ticket extends BaseController
 
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_list',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_list',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function cadastro($id = null)
@@ -150,9 +150,9 @@ class Ticket extends BaseController
 			'erro' => $erro,
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/ticket/cadastro_ticket',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/ticket/cadastro_ticket',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function delete()

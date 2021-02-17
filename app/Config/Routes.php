@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Site');
+$routes->setDefaultController('admin');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -30,8 +30,6 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('site', 'Site::index');
-
 $routes->post('autocep', 'Auto::cep');
 $routes->post('autocomplete', 'Auto::autocomplete');
 
@@ -39,8 +37,6 @@ $routes->post('download', 'Download::index');
 $routes->get('download/(:any)', 'Download::download/$1');
 
 $routes->post('home', 'Home::index');
-$routes->post('vendapormes', 'Home::vendaPorMes');
-$routes->post('vendapormesvendedora', 'Home::vendaPorMesVendedora');
 
 $routes->get('admin', 'Usuario::index');
 $routes->post('login', 'Usuario::login');

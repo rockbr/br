@@ -72,9 +72,9 @@ class GrupoUsuario extends BaseController
 			'url' => site_url('consultagruposusuarios'),
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_list',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_list',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function cadastro($id = null)
@@ -117,9 +117,9 @@ class GrupoUsuario extends BaseController
 			'erro' => $erro,			
 		);
 
-		echo view('admin/padrao/main_header',$data_header);
-		echo view('admin/padrao/main_cadastro',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header',$data_header);
+		echo view('admin/main_cadastro',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function delete()

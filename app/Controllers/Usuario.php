@@ -31,7 +31,7 @@ class Usuario extends BaseController
 			'erro' => null
 		);
 
-		echo view('admin/padrao/usuario/login', $data);
+		echo view('admin/usuario/login', $data);
 	}
 
 	public function login()
@@ -61,7 +61,7 @@ class Usuario extends BaseController
 
 			if (empty($table_tbody)) {
 				$data = array('erro' => 'Acesso negado');
-				echo view('admin/padrao/usuario/login', $data);
+				echo view('admin/usuario/login', $data);
 			} else {
 				$this->session->set('id_usuario', $table_tbody[0]['id']);
 				$this->session->set('nome_usuario', $table_tbody[0]['nome']);
@@ -84,7 +84,7 @@ class Usuario extends BaseController
 			}
 		} else {
 			$data = array('erro' => \Config\Services::validation()->listErrors());
-			echo view('admin/padrao/usuario/login', $data);
+			echo view('admin/usuario/login', $data);
 		}
 	}
 
@@ -156,9 +156,9 @@ class Usuario extends BaseController
 			'url' => site_url('consultausuarios'),
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_list',  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_list',  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function cadastro($id = null)
@@ -204,9 +204,9 @@ class Usuario extends BaseController
 			'erro' => $erro,
 		);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/usuario/cadastro_' . $this->tabela,  $data);
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/usuario/cadastro_' . $this->tabela,  $data);
+		echo view('admin/main_footer');
 	}
 
 	public function delete()
@@ -299,7 +299,7 @@ class Usuario extends BaseController
 			'sucesso' => $sucesso
 		);
 
-		echo view('admin/padrao/usuario/recupera_senha', $data);
+		echo view('admin/usuario/recupera_senha', $data);
 	}
 
 	public function emailResetSenha()
@@ -373,7 +373,7 @@ class Usuario extends BaseController
 				'erro' => $erro
 			);
 
-			echo view('admin/padrao/usuario/nova_senha', $data);
+			echo view('admin/usuario/nova_senha', $data);
 		} else {
 			return redirect()->to('/admin');
 		}

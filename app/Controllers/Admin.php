@@ -17,8 +17,8 @@ class Admin extends BaseController
 
 		$data_header = array('session' => $this->session);
 
-		echo view('admin/padrao/main_header', $data_header);
-		echo view('admin/padrao/main_home');
-		echo view('admin/padrao/main_footer');
+		echo view('admin/main_header', $data_header);
+		echo view('admin/main_home');
+		echo view('admin/main_footer');
 	}
 }
