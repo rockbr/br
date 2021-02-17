@@ -1,0 +1,242 @@
+CRITICAL - 2020-06-10 11:32:35 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_empresa&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-10 11:32:35, null, null, null, C, Pedro Coelho Teixeira, null, , , null, , null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'INSERT INTO "pe...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "pe...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "pe...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "pe...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(512): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Pessoa.php(301): App\Models\PadraoModel->setInsertUpdateTransactions('pessoas', Array, NULL, 'id_pessoa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Pessoa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 11:36:21 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_empresa&quot; violates not-null constraint
+DETAIL:  Failing row contains (2, 2020-06-10 11:36:21, null, null, null, C, VITOR, null, , , null, , null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #126, 'INSERT INTO "pe...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "pe...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "pe...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "pe...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(512): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Pessoa.php(301): App\Models\PadraoModel->setInsertUpdateTransactions('pessoas', Array, NULL, 'id_pessoa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Pessoa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:12:31 --> pg_query(): Query failed: ERROR:  null value in column &quot;mostrar_ponto&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-08 10:53:57.323344, 2020-06-10 18:12:31, null, Vitor, vitor_oliv@hotmail.com, e10adc3949ba59abbe56e057f20f883e, 2, null, t, f, t, null, null, null, null, null, null, null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:17:52 --> pg_query(): Query failed: ERROR:  null value in column &quot;mostrar_ponto&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-08 10:53:57.323344, 2020-06-10 18:17:52, null, Vitor, vitor_oliv@hotmail.com, e10adc3949ba59abbe56e057f20f883e, 2, null, t, f, t, null, null, null, null, null, null, null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:18:17 --> pg_query(): Query failed: ERROR:  null value in column &quot;mostrar_ponto&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-08 10:53:57.323344, 2020-06-10 18:18:17, null, Vitor, vitor_oliv@hotmail.com, e10adc3949ba59abbe56e057f20f883e, 2, null, t, f, t, null, null, null, null, null, null, null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:22:53 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ... = NULL, &quot;mostrar_km&quot; = NULL, &quot;tempo_intervalo&quot; = '', &quot;tempo...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:30:34 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ... = NULL, &quot;mostrar_km&quot; = NULL, &quot;tempo_intervalo&quot; = '', &quot;tempo...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:32:39 --> pg_query(): Query failed: ERROR:  null value in column &quot;mostrar_ponto&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-08 10:53:57.323344, 2020-06-10 18:32:39, null, Vitor, vitor_oliv@hotmail.com, e10adc3949ba59abbe56e057f20f883e, 2, null, t, f, t, null, null, null, null, null, null, null, 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:46:05 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ... = NULL, &quot;mostrar_km&quot; = NULL, &quot;tempo_intervalo&quot; = '', &quot;tempo...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:47:12 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...p&quot; = '1', &quot;mostrar_ponto&quot; = '1', &quot;mostrar_foto&quot; = '', &quot;mostr...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:48:42 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...p&quot; = '1', &quot;mostrar_ponto&quot; = '1', &quot;mostrar_foto&quot; = '', &quot;mostr...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(235): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:53:37 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...p&quot; = '1', &quot;mostrar_ponto&quot; = '1', &quot;mostrar_foto&quot; = '', &quot;mostr...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(241): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:54:24 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...p&quot; = '1', &quot;mostrar_ponto&quot; = '1', &quot;mostrar_foto&quot; = '', &quot;mostr...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(241): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:55:54 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;=&quot;
+LINE 1: ... '2', &quot;acesso_app&quot; = '1', &quot;mostrar_ponto&quot; = '1',  = '', &quot;mos...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(241): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 18:56:40 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...p&quot; = '1', &quot;mostrar_ponto&quot; = '1', &quot;mostrar_foto&quot; = '', &quot;mostr...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'UPDATE "usuario...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "usuario...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "usuario...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "usuario...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(692): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(241): App\Models\PadraoModel->setUpdate('usuarios', Array, Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-10 19:06:37 --> Array to string conversion
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Usuario.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\vitor\\...', 140, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->cadastro('1')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}

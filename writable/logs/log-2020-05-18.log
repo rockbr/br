@@ -1,0 +1,95 @@
+CRITICAL - 2020-05-18 00:59:03 --> pg_query(): Query failed: ERROR:  relation &quot;grupos_clientes&quot; does not exist
+LINE 2: FROM &quot;grupos_clientes&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #121, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(84): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->cadastro()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-18 01:04:29 --> pg_query(): Query failed: ERROR:  null value in column &quot;tipo&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-05-18 01:04:29, null, null, null, null, Vitor, null, , , null, , 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #125, 'INSERT INTO "pe...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "pe...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "pe...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "pe...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(480): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(317): App\Models\PadraoModel->setInsertUpdateTransactions('pessoas', Array, NULL, 'id_pessoa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-18 01:07:05 --> pg_query(): Query failed: ERROR:  null value in column &quot;tipo&quot; violates not-null constraint
+DETAIL:  Failing row contains (2, 2020-05-18 01:07:05, null, null, null, null, Vitor, null, , , null, , 1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #125, 'INSERT INTO "pe...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "pe...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "pe...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "pe...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(480): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(318): App\Models\PadraoModel->setInsertUpdateTransactions('pessoas', Array, NULL, 'id_pessoa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-18 01:08:07 --> pg_query(): Query failed: ERROR:  column &quot;id_grupo_cliente&quot; does not exist
+LINE 1: SELECT &quot;id&quot;, &quot;nome&quot;, &quot;cpf_cnpj&quot;, &quot;rg_ie&quot;, &quot;id_grupo_cliente&quot;...
+                                                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(114): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->cadastro('3')
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-18 01:08:39 --> pg_query(): Query failed: ERROR:  column &quot;numero&quot; does not exist
+LINE 1: SELECT &quot;id&quot;, &quot;numero&quot;, &quot;id_tipo&quot;
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(128): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->cadastro('3')
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-18 01:11:08 --> pg_query(): Query failed: ERROR:  column &quot;id_pessoas&quot; does not exist
+LINE 3: WHERE &quot;id_pessoas&quot; = '3'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;pessoas_contatos.id_pessoa&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "c...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "c...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "c...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "c...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(152): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->cadastro('3')
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}

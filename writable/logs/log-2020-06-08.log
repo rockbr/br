@@ -1,0 +1,253 @@
+CRITICAL - 2020-06-08 08:45:57 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Views\admin\padrao\includes\admin_menu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 14, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Home.php(18): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-06-08 08:46:47 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Views\admin\padrao\includes\admin_menu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 14, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Home.php(18): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-06-08 15:34:22 --> pg_query(): Query failed: ERROR:  column &quot;nome&quot; does not exist
+LINE 4: ORDER BY &quot;nome&quot; ASC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "t...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "t...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "t...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "t...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Km.php(42): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\km->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\km))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 15:36:46 --> Undefined variable: sucesso
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Views\admin\padrao\main_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 3, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Km.php(50): view('admin/padrao/ma...', Array)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\km->list()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\km))
+#6 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#9 {main}
+CRITICAL - 2020-06-08 15:43:40 --> pg_query(): Query failed: ERROR:  relation &quot;app_ocorrencia&quot; does not exist
+LINE 2: FROM &quot;app_ocorrencia&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "o...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "o...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "o...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "o...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ocorrencia.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ocorrencia->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ocorrencia))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 15:54:43 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;ocorrencias&quot;
+LINE 3: LEFT JOIN &quot;usuarios&quot; ON &quot;usuarios&quot;.&quot;id&quot; = &quot;ocorrencias&quot;.&quot;id_...
+                                                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #121, 'SELECT "app_oco...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_oco...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_oco...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_oco...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ocorrencia.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ocorrencia->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ocorrencia))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 15:55:24 --> pg_query(): Query failed: ERROR:  column &quot;app_ocorrenciasid&quot; does not exist
+LINE 1: SELECT &quot;app_ocorrenciasid&quot;, &quot;usuarios&quot;.&quot;nome&quot; AS &quot;usuario&quot;, ...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "app_oco...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_oco...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_oco...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_oco...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ocorrencia.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ocorrencia->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ocorrencia))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 15:57:25 --> pg_query(): Query failed: ERROR:  column &quot;app_ocorrenciasdata_hora_app&quot; does not exist
+LINE 6: ORDER BY &quot;app_ocorrenciasdata_hora_app&quot; DESC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "app_oco...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_oco...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_oco...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_oco...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ocorrencia.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ocorrencia->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ocorrencia))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 15:59:38 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;app_ocorrencias&quot;
+LINE 3: LEFT JOIN &quot;usuarios&quot; ON &quot;usuarios&quot;.&quot;id&quot; = &quot;app_ocorrencias&quot;....
+                                                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "app_km"...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_km"...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_km"...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_km"...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Km.php(44): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\km->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\km))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 16:09:02 --> pg_query(): Query failed: ERROR:  column app_produto_valores.quantidade does not exist
+LINE 1: ...me&quot; AS &quot;cliente&quot;, &quot;produtos&quot;.&quot;nome&quot; AS &quot;produto&quot;, &quot;app_produ...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "app_pro...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pro...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pro...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pro...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Valor.php(45): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Valor->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valor))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 16:28:11 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;app_ocorrencias&quot;
+LINE 3: LEFT JOIN &quot;usuarios&quot; ON &quot;usuarios&quot;.&quot;id&quot; = &quot;app_ocorrencias&quot;....
+                                                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #121, 'SELECT "app_pon...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pon...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pon...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pon...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ponto.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 16:28:27 --> pg_query(): Query failed: ERROR:  column app_pontos.ocorrencia does not exist
+LINE 1: ...ome&quot; AS &quot;usuario&quot;, &quot;pessoas&quot;.&quot;nome&quot; AS &quot;cliente&quot;, &quot;app_ponto...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "app_pon...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pon...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pon...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pon...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Ponto.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-08 21:10:21 --> Call to undefined function CodeIgniter\CLI\mb_strpos()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(956): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(365): require_once('C:\\Users\\bruno\\...')
+#3 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\bruno\\...')
+#4 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\Console.php(96): spl_autoload_call('CodeIgniter\\CLI...')
+#7 C:\Users\bruno\Documents\GitHub\fetx\spark(54): CodeIgniter\CLI\Console->showHeader()
+#8 {main}
+CRITICAL - 2020-06-08 21:29:51 --> Call to undefined function CodeIgniter\CLI\mb_strpos()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(956): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(365): require_once('C:\\Users\\bruno\\...')
+#3 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\bruno\\...')
+#4 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\Console.php(96): spl_autoload_call('CodeIgniter\\CLI...')
+#7 C:\Users\bruno\Documents\GitHub\fetx\spark(54): CodeIgniter\CLI\Console->showHeader()
+#8 {main}
+CRITICAL - 2020-06-08 21:40:07 --> Call to undefined function CodeIgniter\CLI\mb_strpos()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(956): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(365): require_once('C:\\Users\\bruno\\...')
+#3 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\bruno\\...')
+#4 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\Console.php(96): spl_autoload_call('CodeIgniter\\CLI...')
+#7 C:\Users\bruno\Documents\GitHub\fetx\spark(54): CodeIgniter\CLI\Console->showHeader()
+#8 {main}
+CRITICAL - 2020-06-08 21:40:23 --> Call to undefined function CodeIgniter\CLI\mb_strpos()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(956): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(365): require_once('C:\\Users\\bruno\\...')
+#3 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\bruno\\...')
+#4 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\Console.php(96): spl_autoload_call('CodeIgniter\\CLI...')
+#7 C:\Users\bruno\Documents\GitHub\fetx\spark(54): CodeIgniter\CLI\Console->showHeader()
+#8 {main}
+CRITICAL - 2020-06-08 21:40:46 --> Call to undefined function CodeIgniter\CLI\mb_strpos()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\CLI.php(956): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(365): require_once('C:\\Users\\bruno\\...')
+#3 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\bruno\\...')
+#4 C:\Users\bruno\Documents\GitHub\fetx\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CLI\Console.php(96): spl_autoload_call('CodeIgniter\\CLI...')
+#7 C:\Users\bruno\Documents\GitHub\fetx\spark(54): CodeIgniter\CLI\Console->showHeader()
+#8 {main}
+CRITICAL - 2020-06-08 21:51:58 --> Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\Users\bruno\Documents\GitHub\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\bruno\Documents\GitHub\fetx\app\Controllers\Usuario.php(41): App\Models\PadraoModel->getQuery(Array)
+#5 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->login()
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\bruno\Documents\GitHub\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\bruno\Documents\GitHub\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\bruno\\...')
+#10 {main}
+CRITICAL - 2020-06-08 21:52:12 --> Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\bruno\Documents\GitHub\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\Users\bruno\Documents\GitHub\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\bruno\Documents\GitHub\fetx\app\Controllers\Usuario.php(41): App\Models\PadraoModel->getQuery(Array)
+#5 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(914): App\Controllers\Usuario->login()
+#6 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\bruno\Documents\GitHub\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\bruno\Documents\GitHub\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\bruno\Documents\GitHub\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\bruno\\...')
+#10 {main}

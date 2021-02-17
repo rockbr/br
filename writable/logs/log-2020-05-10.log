@@ -1,0 +1,26 @@
+CRITICAL - 2020-05-10 23:23:38 --> Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(43): App\Models\PadraoModel->getQuery(Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->list()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-10 23:23:50 --> Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\GrupoUsuario.php(39): App\Models\PadraoModel->getQuery(Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\GrupoUsuario->list()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrupoUsuario))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}

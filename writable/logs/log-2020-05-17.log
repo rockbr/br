@@ -1,0 +1,104 @@
+CRITICAL - 2020-05-17 10:39:41 --> pg_query(): Query failed: ERROR:  null value in column &quot;contato&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, 2020-05-17 10:39:41, null, null, 1, 5, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #125, 'INSERT INTO "em...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "em...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "em...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "em...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(504): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Empresa.php(302): App\Models\PadraoModel->setInsertUpdateTransactions('empresas', Array, '1', 'id_empresa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Empresa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-17 10:45:22 --> pg_query(): Query failed: ERROR:  null value in column &quot;contato&quot; violates not-null constraint
+DETAIL:  Failing row contains (6, 2020-05-17 10:45:22, null, null, 1, 5, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #125, 'INSERT INTO "em...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "em...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "em...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "em...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(504): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Empresa.php(302): App\Models\PadraoModel->setInsertUpdateTransactions('empresas', Array, '1', 'id_empresa', Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Empresa->salva()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-17 11:03:36 --> Undefined offset: 0
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Empresa.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\vitor\\...', 173, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Empresa->cadastro('1')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-17 11:05:38 --> Undefined offset: 0
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Empresa.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\vitor\\...', 173, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Empresa->cadastro('1')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-17 11:17:15 --> pg_query(): Query failed: ERROR:  relation &quot;grupos_empresas&quot; does not exist
+LINE 2: FROM &quot;grupos_empresas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\GrupoEmpresa.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\GrupoEmpresa->list()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrupoEmpresa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-17 22:32:18 --> pg_query(): Query failed: ERROR:  relation &quot;grupos_clientes&quot; does not exist
+LINE 2: FROM &quot;grupos_clientes&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\GrupoCliente.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\GrupoCliente->list()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrupoCliente))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-17 22:59:34 --> pg_query(): Query failed: ERROR:  column &quot;cnpj&quot; does not exist
+LINE 1: SELECT &quot;id&quot;, &quot;nome&quot;, &quot;cnpj&quot;
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->list()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-17 23:01:20 --> Arquivo inválido: admin/padrao/pessoa/cadastro_pessoas.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/padrao/pe...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/pe...', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Pessoa.php(201): view('admin/padrao/pe...', Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Pessoa->cadastro()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}

@@ -1,0 +1,495 @@
+CRITICAL - 2021-02-10 09:46:36 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;AS&quot;
+LINE 3: ... ON &quot;tipos&quot;.&quot;id&quot; = &quot;tipos&quot;.&quot;id_prioridade_ticket&quot; AS &quot;priori...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 09:49:25 --> pg_query(): Query failed: ERROR:  column tipos.id_prioridade_ticket does not exist
+LINE 3: LEFT JOIN &quot;tipos&quot; ON &quot;tipos&quot;.&quot;id&quot; = &quot;tipos&quot;.&quot;id_prioridade_t...
+                                            ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 09:52:12 --> pg_query(): Query failed: ERROR:  invalid reference to FROM-clause entry for table &quot;tipos&quot;
+LINE 3: LEFT JOIN &quot;tipos&quot; AS &quot;situacao&quot; ON &quot;tipos&quot;.&quot;id&quot; = &quot;tipos&quot;.&quot;i...
+                                           ^
+HINT:  Perhaps you meant to reference the table alias &quot;situacao&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 09:53:14 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;prioridade&quot;
+LINE 3: LEFT JOIN &quot;tipos&quot; ON &quot;prioridade&quot;.&quot;id&quot; = &quot;tickets&quot;.&quot;id_prior...
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 09:54:30 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:21:59 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:33:05 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:33:20 --> pg_query(): Query failed: ERROR:  relation &quot;tipos ON&quot; does not exist
+LINE 3: LEFT JOIN &quot;tipos ON&quot; &quot;situacao&quot; ON &quot;situacao&quot;.&quot;id&quot; = &quot;ticket...
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:34:00 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:34:22 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:35:37 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;prioridade&quot;
+LINE 3: LEFT JOIN &quot;tipos&quot; ON &quot;prioridade&quot;.&quot;id&quot; = &quot;tickets&quot;.&quot;id_prior...
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:37:19 --> pg_query(): Query failed: ERROR:  column &quot;prioridade&quot; specified in USING clause does not exist in left table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:37:46 --> pg_query(): Query failed: ERROR:  column &quot;ON&quot;prioridade&quot; does not exist
+LINE 3: JOIN &quot;tipos&quot; ON &quot;ON&quot;&quot;prioridade&quot;
+                        ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:37:55 --> pg_query(): Query failed: ERROR:  column &quot;prioridade&quot; specified in USING clause does not exist in left table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:38:39 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;prioridade&quot;
+LINE 3: LEFT JOIN &quot;tipos&quot; ON &quot;prioridade&quot;.&quot;id&quot; = &quot;tickets&quot;.&quot;id_prior...
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:39:31 --> pg_query(): Query failed: ERROR:  column &quot;prioridade&quot; specified in USING clause does not exist in left table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:48:47 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:48:49 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:49:33 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:50:44 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:51:31 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 10:52:04 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;departamento&quot;
+LINE 1: ..., &quot;tickets&quot;.&quot;data_insert&quot;, &quot;tickets&quot;.&quot;descricao&quot;, &quot;departame...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(61): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 11:03:14 --> pg_query(): Query failed: ERROR:  column &quot;t.data_insert&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 6: ...id_empresa = 1 AND t.data_delete IS NULL ORDER BY t.data_ins...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(63): App\Models\PadraoModel->getQueryCustom('SELECT count(*)...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-02-10 11:22:57 --> syntax error, unexpected ','
+#0 /Users/vitor/Documents/GitHub/br/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/vitor/Do...')
+#1 /Users/vitor/Documents/GitHub/br/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-10 11:23:22 --> pg_query(): Query failed: ERROR:  column t.descricao does not exist
+LINE 1: SELECT t.id, t.data_insert, t.descricao, c.nome AS departame...
+                                    ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT t.id, t....')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT t.id, t....')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.id, t....')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT t.id, t....')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(62): App\Models\PadraoModel->getQueryCustom('SELECT t.id, t....')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-02-10 13:43:43 --> Invalid argument supplied for foreach()
+#0 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(618): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/vitor/Do...', 618, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(216): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, 1, 'id_ticket', Array)
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-02-10 13:45:15 --> Invalid argument supplied for foreach()
+#0 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(618): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/vitor/Do...', 618, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(216): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, 2, 'id_ticket', Array)
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-02-10 13:50:29 --> Illegal string offset 'acao'
+#0 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Users/vitor/Do...', 620, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(219): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, 3, 'id_ticket', Array)
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-02-10 13:54:55 --> Illegal string offset 'id'
+#0 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/ticket/cadastro_ticket.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Users/vitor/Do...', 120, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ti...', Array, true)
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(146): view('admin/padrao/ti...', Array)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro('4')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-10 15:37:18 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_categoria_ticket&quot; violates not-null constraint
+DETAIL:  Failing row contains (6, 2021-02-10 15:36:58, 2021-02-10 15:37:18, null, 1, 24, null, null, 1, nfdjksfnvdfjklsngvdfjk).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'UPDATE "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(604): CodeIgniter\Database\BaseBuilder->update()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(225): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, '6', 'id_ticket', Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 16:26:02 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_categoria_ticket&quot; violates not-null constraint
+DETAIL:  Failing row contains (7, 2021-02-10 16:20:44, 2021-02-10 16:26:02, null, 1, 25, null, null, 1, Assunto).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'UPDATE "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(604): CodeIgniter\Database\BaseBuilder->update()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(229): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, '7', 'id_ticket', Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 16:28:03 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_categoria_ticket&quot; violates not-null constraint
+DETAIL:  Failing row contains (7, 2021-02-10 16:20:44, 2021-02-10 16:28:03, null, 1, 24, null, null, 1, Assunto).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'UPDATE "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(604): CodeIgniter\Database\BaseBuilder->update()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(229): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, '7', 'id_ticket', Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 16:50:33 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_categoria_ticket&quot; violates not-null constraint
+DETAIL:  Failing row contains (7, 2021-02-10 16:20:44, 2021-02-10 16:50:33, null, 1, 24, null, null, 1, Assunto).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'UPDATE "tickets...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tickets...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tickets...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "tickets...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(604): CodeIgniter\Database\BaseBuilder->update()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(229): App\Models\PadraoModel->setInsertUpdateTransactions('tickets', Array, '7', 'id_ticket', Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-10 17:23:44 --> syntax error, unexpected '<'
+#0 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ti...', Array, true)
+#1 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(153): view('admin/padrao/ti...', Array)
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro('4')
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}

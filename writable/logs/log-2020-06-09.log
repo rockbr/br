@@ -1,0 +1,254 @@
+CRITICAL - 2020-06-09 07:47:58 --> Call to a member function findAll() on null
+#0 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->produtos()
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#5 {main}
+CRITICAL - 2020-06-09 08:16:41 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\vitor\\...', 21, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->produtos()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 08:28:05 --> O filtro {0} deve ter um alias correspondente definido.
+#0 C:\Users\vitor\source\repos\rockbr\fetx\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('BasicAuthFilter')
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('BasicAuthFilter', 'before')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#5 {main}
+CRITICAL - 2020-06-09 09:05:13 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 28, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:05:47 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 28, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:06:53 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 31, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:12:07 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 31, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:15:57 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 31, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:23:09 --> Undefined property: App\Controllers\Api::$input
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 29, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:24:20 --> Undefined index: login
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\vitor\\...', 29, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:38:30 --> Argument 1 passed to CodeIgniter\Security\Security::sanitizeFilename() must be of the type string, array given, called in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 30
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(30): CodeIgniter\Security\Security->sanitizeFilename(Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:38:36 --> Argument 1 passed to CodeIgniter\Security\Security::sanitizeFilename() must be of the type string, array given, called in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 30
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(30): CodeIgniter\Security\Security->sanitizeFilename(Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:38:53 --> Argument 1 passed to CodeIgniter\Security\Security::sanitizeFilename() must be of the type string, array given, called in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 30
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(30): CodeIgniter\Security\Security->sanitizeFilename(Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:39:04 --> Argument 1 passed to CodeIgniter\Security\Security::sanitizeFilename() must be of the type string, array given, called in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 30
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(30): CodeIgniter\Security\Security->sanitizeFilename(Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 09:39:16 --> Argument 1 passed to CodeIgniter\Security\Security::sanitizeFilename() must be of the type string, null given, called in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 30
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(30): CodeIgniter\Security\Security->sanitizeFilename(NULL)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:31:27 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 124, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:35:08 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 124, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:36:24 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 124, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:36:49 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 124, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:43:36 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:44:15 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:45:24 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:45:31 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:45:46 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:47:00 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:47:17 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:52:32 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 15:55:32 --> Undefined property: App\Controllers\Api::$tabela
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 125, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveKm()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 18:32:30 --> Too few arguments to function App\Controllers\Api::gravarImagem(), 0 passed in C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php on line 134 and exactly 2 expected
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(134): App\Controllers\Api->gravarImagem()
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveFotos()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 19:14:19 --> Call to undefined function App\Controllers\set_realpath()
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(134): App\Controllers\Api->gravarImagem('/9j/4AAQSkZJRgA...', 'c09dc686fa8d1e2...')
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveFotos()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 19:25:56 --> Call to undefined function App\Controllers\set_realpath()
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(134): App\Controllers\Api->gravarImagem('/9j/4AAQSkZJRgA...', '8ed84d502bcb57f...')
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveFotos()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-06-09 19:27:26 --> Call to undefined function App\Controllers\set_realpath()
+#0 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Api.php(134): App\Controllers\Api->gravarImagem('/9j/4AAQSkZJRgA...', '8e04064ba9e5568...')
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Api->saveFotos()
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}

@@ -1,0 +1,20 @@
+th:first-child, td:first-child{
+    position: sticky;
+    left: 0px;
+    z-index: 1;
+}
+tr:nth-child(odd) > td{
+    background-color: #ededed;
+}
+tr:nth-child(even) > td{
+    background-color: #e2e2e2;
+}
+tr:nth-child(odd) > th{
+    background-color: #343a40;
+    color: white;
+}
+
+.botao{
+    margin-right: 5px;
+    margin-bottom: 5px;;
+}

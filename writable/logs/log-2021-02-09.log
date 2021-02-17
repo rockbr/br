@@ -1,0 +1,116 @@
+CRITICAL - 2021-02-09 16:58:20 --> pg_query(): Query failed: ERROR:  relation &quot;tickets&quot; does not exist
+LINE 2: FROM &quot;tickets&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 16:59:08 --> pg_query(): Query failed: ERROR:  relation &quot;tickets&quot; does not exist
+LINE 2: FROM &quot;tickets&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 17:06:06 --> pg_query(): Query failed: ERROR:  relation &quot;tickets&quot; does not exist
+LINE 2: FROM &quot;tickets&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 19:13:07 --> pg_query(): Query failed: ERROR:  column &quot;nome&quot; does not exist
+LINE 1: SELECT &quot;id&quot;, &quot;nome&quot;
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 19:17:51 --> pg_query(): Query failed: ERROR:  column &quot;id_empresa&quot; does not exist
+LINE 3: WHERE &quot;id_empresa&quot; = '1'
+              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "id", "d...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "d...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "d...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "d...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 19:21:47 --> pg_query(): Query failed: ERROR:  column &quot;nome&quot; does not exist
+LINE 5: ORDER BY &quot;nome&quot; ASC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "id", "d...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "d...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "d...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "d...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(57): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-02-09 19:22:52 --> Arquivo inválido: admin/padrao/campanha/cadastro_tickets.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/padrao/ca...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ca...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(123): view('admin/padrao/ca...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-02-09 19:23:37 --> Arquivo inválido: admin/padrao/ticket/cadastro_tickets.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/padrao/ti...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ti...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(123): view('admin/padrao/ti...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}

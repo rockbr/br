@@ -1,0 +1,16 @@
+CRITICAL - 2021-02-01 12:49:15 --> pg_query(): Query failed: ERROR:  relation &quot;app_produto_vendas&quot; does not exist
+LINE 2: FROM &quot;app_produto_vendas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Home.php(31): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}

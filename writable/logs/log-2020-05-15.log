@@ -1,0 +1,1152 @@
+CRITICAL - 2020-05-15 08:47:46 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:49:23 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:52:31 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:54:30 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:54:38 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:54:52 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:55:48 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:56:41 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 08:58:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php on line 342
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(342): CodeIgniter\Database\BaseBuilder->like('nome', Array, 'both')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(79): App\Models\PadraoModel->getQuery(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:06:06 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:06:41 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:08:49 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:09:51 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:37:38 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:39:35 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:39:40 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:40:41 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:41:09 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:42:34 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:45:33 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:46:54 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:48:14 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:50:56 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:52:04 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:52:49 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:53:30 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:55:35 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:55:52 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:57:10 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:57:20 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:57:22 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:57:24 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:57:25 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 09:59:00 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 10:04:23 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:41:20 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:41:39 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:42:15 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:43:41 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:54:21 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 15:54:48 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:01:04 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:01:30 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:02:51 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:14:12 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:14:13 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:14:16 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 16:33:03 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 18:40:35 --> pg_query(): Query failed: ERROR:  invalid byte sequence for encoding &quot;UTF8&quot;: 0xe3 0x8d 0x25
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(86): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 18:40:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 18:40:38 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 18:40:57 --> pg_query(): Query failed: ERROR:  invalid byte sequence for encoding &quot;UTF8&quot;: 0xe3 0x8d 0x25
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(86): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 18:40:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 18:41:21 --> pg_query(): Query failed: ERROR:  invalid byte sequence for encoding &quot;UTF8&quot;: 0xe3 0x8d 0x25
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(86): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 18:41:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 18:45:50 --> Array to string conversion
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\vitor\\...', 96, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-15 19:47:22 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 19:47:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 19:47:45 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:47:48 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:49:13 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 19:49:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 19:49:15 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:49:22 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:51:03 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:51:17 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:52:25 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 19:52:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 19:52:35 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 19:59:32 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 19:59:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:02:50 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:02:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:02:56 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:04:11 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:04:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:04:16 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:04:23 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:04:44 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:04:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:07:49 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:07:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:07:55 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:09:41 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:09:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:09:43 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:09:52 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:09:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:10:57 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:10:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:11:00 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:11:07 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:11:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:11:28 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:12:07 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:12:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:12:28 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:12:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:52:45 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:52:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:53:38 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:53:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:54:21 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 6: WHERE &quot;enderecos&quot;.&quot;id&quot; = ''
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(40): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-15 20:54:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-15 20:55:06 --> Undefined variable: retorno
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 46, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-15 20:55:09 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocep', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-15 20:55:50 --> Undefined variable: retorno
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 46, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}

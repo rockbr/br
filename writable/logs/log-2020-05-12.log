@@ -1,0 +1,59 @@
+CRITICAL - 2020-05-12 20:52:38 --> Arquivo inválido: admin/login/login.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login/log...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/login/log...', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(47): view('admin/login/log...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->login()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}
+CRITICAL - 2020-05-12 20:53:48 --> Arquivo inválido: admin/login/login.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login/log...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/login/log...', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(47): view('admin/login/log...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->login()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}
+CRITICAL - 2020-05-12 22:01:58 --> Undefined variable: erro
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\usuario\login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 24, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/usuario/l...', Array, true)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(20): view('admin/usuario/l...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#9 {main}
+CRITICAL - 2020-05-12 22:35:12 --> Arquivo inválido: welcome_message.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}
+CRITICAL - 2020-05-12 22:56:42 --> Array to string conversion
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\vitor\\...', 43, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-12 23:13:34 --> Arquivo inválido: welcome_message.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}

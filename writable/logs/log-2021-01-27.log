@@ -1,0 +1,843 @@
+CRITICAL - 2021-01-27 00:13:30 --> Undefined index: paginacao
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 25, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 00:14:53 --> Undefined index: paginacao
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 27, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 00:44:46 --> Undefined variable: limite
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 8, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(100): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(77): view('admin/padrao/ma...', Array)
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}
+CRITICAL - 2021-01-27 00:48:53 --> Undefined variable: acoes_novo
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 20, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(80): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:52:05 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(81): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:53:40 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(81): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:54:05 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(81): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:54:57 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(81): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:57:13 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:58:12 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 01:59:51 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:01:15 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:04:06 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:06:39 --> Undefined variable: array
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:08:21 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:08:32 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:08:43 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:09:16 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:09:29 --> syntax error, unexpected 'S' (T_STRING), expecting ']'
+#0 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#1 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-27 02:09:39 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:10:09 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:12:29 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:14:30 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(85): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:14:56 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(85): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:16:31 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:16:39 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:16:47 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:21:51 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:24:39 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:24:48 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:25:39 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:25:57 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 54, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 02:27:17 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:30:26 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:30:41 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:33:47 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:34:01 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:35:01 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:35:22 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:37:23 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 88, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:38:19 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 84, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 02:38:26 --> Undefined offset: 0
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/vitor/Do...', 84, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 08:40:42 --> Undefined variable: frow
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 38, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(86): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 12:09:44 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 78, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 12:10:06 --> Array to string conversion
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/vitor/Do...', 78, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 14:48:44 --> Undefined variable: acoes_filtro
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 39, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(78): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 15:03:02 --> syntax error, unexpected ';', expecting ')'
+#0 /Users/vitor/Documents/GitHub/fetx/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/vitor/Do...')
+#1 /Users/vitor/Documents/GitHub/fetx/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 15:09:02 --> pg_query(): Query failed: ERROR:  column usuarios.id_empres does not exist
+LINE 5: WHERE &quot;usuarios&quot;.&quot;id_empres&quot; = '1'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.id_empresa&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:10:47 --> pg_query(): Query failed: ERROR:  column usuarios.id_empres does not exist
+LINE 5: WHERE &quot;usuarios&quot;.&quot;id_empres&quot; = '1'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.id_empresa&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:11:21 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 6: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%1%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:12:10 --> pg_query(): Query failed: ERROR:  column pessoas.nom does not exist
+LINE 7: AND  &quot;pessoas&quot;.&quot;nom&quot; LIKE '%C%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;pessoas.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:14:50 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 6: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%N%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #17, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:17:33 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 6: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%C%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:17:53 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 6: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%U%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:19:01 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 6: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%U%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(444): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:27:44 --> pg_query(): Query failed: ERROR:  column pessoas.nom does not exist
+LINE 7: AND  &quot;pessoas&quot;.&quot;nom&quot; LIKE '%G%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;pessoas.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(444): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(74): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:38:17 --> pg_query(): Query failed: ERROR:  invalid input syntax for type date: &quot;&quot;
+LINE 6: AND &quot;app_fotos&quot;.&quot;data_app&quot; &gt;= ''
+                                      ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #17, 'SELECT "app_fot...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_fot...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_fot...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_fot...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(443): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(78): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 15:42:09 --> Undefined variable: acoes_filtro
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 39, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#3 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(78): view('admin/padrao/ma...', Array)
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-01-27 15:56:17 --> Too few arguments to function App\Models\PadraoModel::getQuery(), 1 passed in /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php on line 63 and exactly 2 expected
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(63): App\Models\PadraoModel->getQuery(Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 16:00:25 --> Undefined variable: util
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 66, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-27 16:00:42 --> pg_query(): Query failed: ERROR:  column &quot;app_pontos.data_hora_app&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;app_pontos&quot;.&quot;data_hora_app&quot; DESC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(452): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:01:21 --> pg_query(): Query failed: ERROR:  column &quot;app_pontos.data_hora_app&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;app_pontos&quot;.&quot;data_hora_app&quot; DESC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(452): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:02:25 --> pg_query(): Query failed: ERROR:  column &quot;app_pontos.data_hora_app&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;app_pontos&quot;.&quot;data_hora_app&quot; DESC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(452): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:04:06 --> pg_query(): Query failed: ERROR:  column &quot;app_pontos.data_hora_app&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;app_pontos&quot;.&quot;data_hora_app&quot; DESC
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(452): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:07:05 --> Undefined variable: orderBy
+#0 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 429, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-27 16:08:22 --> Undefined variable: limit
+#0 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(436): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 436, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(76): App\Models\PadraoModel->getQuery(Array, true)
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list()
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-27 16:32:28 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;app_pontos&quot;
+LINE 7: AND &quot;app_pontos&quot;.&quot;data_app&quot; &gt;= '2021-01-21'
+            ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'SELECT "app_pro...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pro...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pro...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pro...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(73): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:41:42 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 7: AND  &quot;usuarios&quot;.&quot;nom&quot; LIKE '%MARIA EDUARDA%' ESCAPE '!'
+             ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'SELECT "app_pro...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pro...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pro...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pro...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(73): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 16:56:36 --> pg_query(): Query failed: ERROR:  column usuarios.nom does not exist
+LINE 7: AND  UPPER(usuarios.nom) LIKE '%Maria%' ESCAPE '!'
+                   ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.nome&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #17, 'SELECT "app_pro...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pro...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pro...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pro...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(73): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 17:07:36 --> pg_query(): Query failed: ERROR:  column usuarios.id_empres does not exist
+LINE 6: WHERE &quot;usuarios&quot;.&quot;id_empres&quot; = '3'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;usuarios.id_empresa&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT "app_pro...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "app_pro...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "app_pro...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "app_pro...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(73): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 18:50:48 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;pessoas_cupons&quot;
+LINE 3: LEFT JOIN &quot;pessoas&quot; ON &quot;pessoas&quot;.&quot;id&quot; = &quot;pessoas_cupons&quot;.&quot;id...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "pessoas...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "pessoas...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "pessoas...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "pessoas...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(126): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->cadastro('4284')
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-27 19:25:08 --> Undefined variable: util
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 141, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->cadastro()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}

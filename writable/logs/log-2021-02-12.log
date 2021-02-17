@@ -1,0 +1,159 @@
+CRITICAL - 2021-02-12 22:12:47 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(279): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:13:29 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(280): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:16:50 --> Call to a member function setFileName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-12 22:17:32 --> Call to a member function setFileName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-12 22:17:43 --> Call to a member function setFileName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-12 22:17:57 --> Call to a member function setFileName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-12 22:27:28 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:28:30 --> Arquivo não encontrado: http://localhost:8080/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:28:48 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:29:31 --> Arquivo não encontrado: http://localhost:8080/writable/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:30:03 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:30:11 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:45:31 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:47:12 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:47:39 --> Arquivo não encontrado: http://localhost:8080/uploads/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-12 22:50:14 --> 
+#0 /Users/vitor/Documents/GitHub/br/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): redirect('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}

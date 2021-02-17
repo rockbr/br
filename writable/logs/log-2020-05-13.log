@@ -1,0 +1,134 @@
+CRITICAL - 2020-05-13 08:57:18 --> Trying to get property 'id' of non-object
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\vitor\\...', 48, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-13 08:58:36 --> Undefined index: id
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\vitor\\...', 48, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-13 08:59:16 --> Undefined index: id
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\vitor\\...', 50, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-13 08:59:49 --> Undefined index: nome
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\vitor\\...', 51, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-13 09:04:01 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(11): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:06:21 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(11): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:07:59 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(11): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:08:19 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(11): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:09:18 --> Undefined variable: session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(11): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:15:21 --> Undefined variable: session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(16): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:15:29 --> Undefined variable: session
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\includes\admin_menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\vitor\\...', 34, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Views\admin\padrao\main_header.php(11): include('C:\\Users\\vitor\\...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(246): include('C:\\Users\\vitor\\...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Home.php(16): view('admin/padrao/ma...', Array)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#10 {main}
+CRITICAL - 2020-05-13 09:27:50 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Usuario.php(53): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\vitor\\...', 53, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Usuario->areaRestrita()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-13 18:54:35 --> Arquivo inválido: admin/usuario/cadastro_empresas.php
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/usuario/c...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Common.php(1087): CodeIgniter\View\View->render('admin/usuario/c...', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Empresa.php(115): view('admin/usuario/c...', Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Empresa->cadastro()
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}

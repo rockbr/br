@@ -1,0 +1,131 @@
+CRITICAL - 2021-02-15 00:38:43 --> 
+#0 /Users/vitor/Documents/GitHub/br/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(281): redirect('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-02-15 00:39:36 --> 
+#0 /Users/vitor/Documents/GitHub/br/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(281): redirect('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-02-15 00:46:44 --> Arquivo não encontrado: http://localhost:8080/upload/anexos/0a2e25d924f98fbb5c78709f72a4cb99.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\Response->download('0a2e25d924f98fb...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('0a2e25d924f98fb...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-15 01:14:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php on line 282
+#0 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(282): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-02-15 01:15:39 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, null given, called in /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php on line 283
+#0 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(283): CodeIgniter\HTTP\Response->download(NULL, NULL)
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-02-15 01:16:24 --> Arquivo não encontrado: 71496ebda3a0f2e2610fb301ca68be4c.jpg
+#0 /Users/vitor/Documents/GitHub/br/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('71496ebda3a0f2e...')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/DownloadResponse.php(139): CodeIgniter\Files\File->__construct('71496ebda3a0f2e...', true)
+#2 /Users/vitor/Documents/GitHub/br/system/HTTP/Response.php(1067): CodeIgniter\HTTP\DownloadResponse->setFilePath('71496ebda3a0f2e...')
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(283): CodeIgniter\HTTP\Response->download('71496ebda3a0f2e...', NULL)
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-15 01:18:42 --> The uploaded file has already been moved.
+#0 /Users/vitor/Documents/GitHub/br/system/HTTP/Files/UploadedFile.php(167): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(212): CodeIgniter\HTTP\Files\UploadedFile->move('/Users/vitor/Do...', '1ff4cf146c7a4f5...')
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-02-15 14:04:46 --> Call to a member function getName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-15 14:06:18 --> Call to a member function getName() on null
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-15 14:06:33 --> Argument 1 passed to CodeIgniter\HTTP\Response::download() must be of the type string, null given, called in /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php on line 286
+#0 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(286): CodeIgniter\HTTP\Response->download(NULL, NULL)
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->anexo('71496ebda3a0f2e...')
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-02-15 18:09:41 --> Could not move file phppUJYu1 to /Users/vitor/Documents/GitHub/br/writable/uploads/../../httpdocs/anexos/ ()
+#0 /Users/vitor/Documents/GitHub/br/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phppUJYu1', '/Users/vitor/Do...', '')
+#1 /Users/vitor/Documents/GitHub/br/system/HTTP/Files/UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('/Users/vitor/Do...', 'e4e3b31d4910f59...')
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(210): CodeIgniter\HTTP\Files\UploadedFile->store('../../httpdocs/...', 'e4e3b31d4910f59...')
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->salva()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-02-15 18:45:20 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;{&quot;
+LINE 6:   WHERE t.id_categoria_ticket IN ({36}) AND t.id_empresa = 1...
+                                          ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT t.id, to...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT t.id, to...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.id, to...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT t.id, to...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(63): App\Models\PadraoModel->getQueryCustom('SELECT t.id, to...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-02-15 18:51:40 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;&quot;IN&quot;&quot;
+LINE 4: AND &quot;id&quot; &quot;IN&quot; = '36'
+                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(119): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(147): App\Controllers\Util->comboCategoriaTicketFiltro('36')
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#10 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}

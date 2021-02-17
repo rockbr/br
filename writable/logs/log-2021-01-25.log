@@ -1,0 +1,28 @@
+CRITICAL - 2021-01-25 19:08:51 --> pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;fetx&quot;
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/Users/vitor/Do...', 98, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(98): pg_connect('host=127.0.0.1 ...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "usuario...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(442): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Usuario.php(60): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Usuario->login()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-25 19:10:41 --> pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;fetx&quot; does not exist
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/Users/vitor/Do...', 98, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(98): pg_connect('host=localhost ...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "usuario...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(442): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Usuario.php(60): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Usuario->login()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}

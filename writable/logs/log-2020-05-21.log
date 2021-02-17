@@ -1,0 +1,85 @@
+CRITICAL - 2020-05-21 10:30:25 --> pg_query(): Query failed: ERROR:  column &quot;propostasid&quot; does not exist
+LINE 1: SELECT &quot;propostasid&quot;, &quot;pessoas&quot;.&quot;nome&quot; as &quot;cliente&quot;, &quot;tipos_...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "propost...')
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "propost...')
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "propost...')
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "propost...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Controllers\Proposta.php(46): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(914): App\Controllers\Proposta->list()
+#8 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposta))
+#9 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-21 10:32:03 --> pg_query(): Query failed: ERROR:  column &quot;propostasid&quot; does not exist
+LINE 1: SELECT &quot;propostasid&quot;, &quot;pessoas&quot;.&quot;nome&quot; as &quot;cliente&quot;, &quot;tipos_...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "propost...')
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "propost...')
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "propost...')
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "propost...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Controllers\Proposta.php(46): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(914): App\Controllers\Proposta->list()
+#8 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposta))
+#9 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-21 10:32:39 --> pg_query(): Query failed: ERROR:  column &quot;propostasid&quot; does not exist
+LINE 1: SELECT &quot;propostasid&quot; as &quot;id&quot;, &quot;pessoas&quot;.&quot;nome&quot; as &quot;cliente&quot;,...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\Postgre\Connection.php(196): pg_query(Resource id #121, 'SELECT "propost...')
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "propost...')
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "propost...')
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "propost...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Models\PadraoModel.php(413): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Controllers\Proposta.php(46): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(914): App\Controllers\Proposta->list()
+#8 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposta))
+#9 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-21 10:34:09 --> Arquivo inválido: admin/padrao/Proposta/cadastro_propostas.php
+#0 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/padrao/Pr...')
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Common.php(1087): CodeIgniter\View\View->render('admin/padrao/Pr...', Array, true)
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Controllers\Proposta.php(115): view('admin/padrao/Pr...', Array)
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(914): App\Controllers\Proposta->cadastro()
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposta))
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#8 {main}
+CRITICAL - 2020-05-21 11:21:05 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-21 11:21:32 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-21 11:51:17 --> Invalid argument supplied for foreach()
+#0 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Models\PadraoModel.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\vitor\\...', 348, Array)
+#1 C:\Users\vitor\source\repos\rockbr\rgcredi2\app\Controllers\Auto.php(105): App\Models\PadraoModel->getQuery(Array)
+#2 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#3 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#4 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\rgcredi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\rgcredi2\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}

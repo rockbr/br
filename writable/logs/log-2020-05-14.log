@@ -1,0 +1,266 @@
+CRITICAL - 2020-05-14 10:45:12 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(34): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 10:45:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 10:52:21 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(34): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 10:52:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 10:52:57 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(34): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 10:52:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 10:54:08 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(34): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 10:54:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 10:58:00 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(34): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 10:58:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 11:01:28 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(38): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 11:01:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 11:22:20 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(38): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 11:22:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-14 11:24:57 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;cidades&quot;
+LINE 3: LEFT JOIN &quot;estados&quot; ON &quot;estados&quot;.&quot;id&quot;=&quot;cidades&quot;.&quot;id_estado&quot;
+                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\Postgre\Connection.php(196): pg_query(Resource id #123, 'SELECT "enderec...')
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "enderec...')
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "enderec...')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "enderec...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(410): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(38): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#8 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#9 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-05-14 11:43:16 --> Trying to get property 'logradouro' of non-object
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\vitor\\...', 45, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-14 11:44:06 --> Undefined offset: 0
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\vitor\\...', 45, Array)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->cep()
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#6 {main}
+CRITICAL - 2020-05-14 20:15:59 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-14 20:17:54 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-14 20:18:00 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-14 20:19:55 --> You must set the database table to be used with your query.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Models\PadraoModel.php(268): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\app\Controllers\Auto.php(79): App\Models\PadraoModel->getQuery(Array)
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(914): App\Controllers\Auto->autocomplete()
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auto))
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}
+CRITICAL - 2020-05-14 20:20:54 --> A ação que você solicitou não é permitida.
+#0 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('autocomplete', 'before')
+#4 C:\Users\vitor\source\repos\rockbr\BaseSite\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\vitor\source\repos\rockbr\BaseSite\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\vitor\source\repos\rockbr\BaseSite\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#7 {main}

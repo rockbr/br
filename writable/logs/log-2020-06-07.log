@@ -1,0 +1,31 @@
+CRITICAL - 2020-06-07 22:06:30 --> pg_query(): Query failed: ERROR:  relation &quot;produtos&quot; does not exist
+LINE 2: FROM &quot;produtos&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #120, 'SELECT "id", "n...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(440): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Produto.php(43): App\Models\PadraoModel->getQuery(Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Produto->list()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}
+CRITICAL - 2020-06-07 23:10:05 --> pg_query(): Query failed: ERROR:  null value in column &quot;id_grupo_usuario&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2020-06-07 23:10:05, null, null, 12, teste, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\vitor\\...', 196, Array)
+#1 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\Postgre\Connection.php(196): pg_query(Resource id #127, 'INSERT INTO "pr...')
+#2 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "pr...')
+#3 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "pr...')
+#4 C:\Users\vitor\source\repos\rockbr\fetx\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO "pr...', Array, false)
+#5 C:\Users\vitor\source\repos\rockbr\fetx\app\Models\PadraoModel.php(465): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\Users\vitor\source\repos\rockbr\fetx\app\Controllers\Produto.php(151): App\Models\PadraoModel->setInsert('produtos', Array)
+#7 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(914): App\Controllers\Produto->salva()
+#8 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+#9 C:\Users\vitor\source\repos\rockbr\fetx\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vitor\source\repos\rockbr\fetx\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\vitor\source\repos\rockbr\fetx\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\vitor\\...')
+#12 {main}

@@ -1,0 +1,129 @@
+CRITICAL - 2021-02-16 08:15:46 --> whereIn() expects $values to be of type array or closure
+#0 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(838): CodeIgniter\Database\BaseBuilder->_whereIn('id', '36', false, 'AND ', NULL)
+#1 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(313): CodeIgniter\Database\BaseBuilder->whereIn('id', '36')
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(120): App\Models\PadraoModel->getQuery(Array)
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(147): App\Controllers\Util->comboCategoriaTicketFiltro('36')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-16 08:16:29 --> whereIn() expects $values to be of type array or closure
+#0 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(838): CodeIgniter\Database\BaseBuilder->_whereIn('id_subtipo', 6, false, 'AND ', NULL)
+#1 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(313): CodeIgniter\Database\BaseBuilder->whereIn('id_subtipo', 6)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(119): App\Models\PadraoModel->getQuery(Array)
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(147): App\Controllers\Util->comboCategoriaTicketFiltro('36')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-16 08:17:25 --> whereIn() expects $values to be of type array or closure
+#0 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(838): CodeIgniter\Database\BaseBuilder->_whereIn('id', '36', false, 'AND ', NULL)
+#1 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(313): CodeIgniter\Database\BaseBuilder->whereIn('id', '36')
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(119): App\Models\PadraoModel->getQuery(Array)
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(147): App\Controllers\Util->comboCategoriaTicketFiltro('36')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-16 08:19:09 --> whereIn() expects $values to be of type array or closure
+#0 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(838): CodeIgniter\Database\BaseBuilder->_whereIn('id', '36', false, 'AND ', NULL)
+#1 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(313): CodeIgniter\Database\BaseBuilder->whereIn('id', '36')
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(119): App\Models\PadraoModel->getQuery(Array)
+#3 /Users/vitor/Documents/GitHub/br/app/Controllers/Ticket.php(147): App\Controllers\Util->comboCategoriaTicketFiltro('36')
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Ticket->cadastro()
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#9 {main}
+CRITICAL - 2021-02-16 09:30:25 --> pg_query(): Query failed: ERROR:  column t.id_situacao_ticket does not exist
+LINE 3:   LEFT JOIN tipos s ON s.id = t.id_situacao_ticket 
+                                      ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT t.id, to...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT t.id, to...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.id, to...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT t.id, to...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(64): App\Models\PadraoModel->getQueryCustom('SELECT t.id, to...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-02-16 09:50:28 --> pg_query(): Query failed: ERROR:  column t.assunto does not exist
+LINE 1: ...a_insert,'DD/MM/YYYY HH24:MI:SS') AS data_insert, t.assunto,...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT t.id, to...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT t.id, to...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.id, to...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT t.id, to...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(64): App\Models\PadraoModel->getQueryCustom('SELECT t.id, to...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-02-16 18:42:47 --> Call to undefined method App\Controllers\Util::comboFornecedor()
+#0 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->cadastro()
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#5 {main}
+CRITICAL - 2021-02-16 19:03:23 --> Undefined variable: url_salvar_brindes
+#0 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/modal_produto.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 1, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/cadastro_compra.php(130): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/br/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/co...', Array, true)
+#4 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(155): view('admin/padrao/co...', Array)
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->cadastro()
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}
+CRITICAL - 2021-02-16 19:03:56 --> Undefined variable: url_salvar_produtos
+#0 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/modal_produto.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 1, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/cadastro_compra.php(130): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/br/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/co...', Array, true)
+#4 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(155): view('admin/padrao/co...', Array)
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->cadastro()
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}
+CRITICAL - 2021-02-16 19:05:17 --> Undefined variable: url_salvar_produtos
+#0 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/modal_produto.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 1, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/cadastro_compra.php(130): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/br/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/co...', Array, true)
+#4 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(155): view('admin/padrao/co...', Array)
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->cadastro()
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}
+CRITICAL - 2021-02-16 19:05:41 --> Undefined variable: url_salvar_produtos
+#0 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/modal_produto.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 1, Array)
+#1 /Users/vitor/Documents/GitHub/br/app/Views/admin/padrao/compra/cadastro_compra.php(130): include('/Users/vitor/Do...')
+#2 /Users/vitor/Documents/GitHub/br/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/co...', Array, true)
+#4 /Users/vitor/Documents/GitHub/br/app/Controllers/Compra.php(155): view('admin/padrao/co...', Array)
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Compra->cadastro()
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}

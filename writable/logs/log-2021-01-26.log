@@ -1,0 +1,267 @@
+CRITICAL - 2021-01-26 17:57:09 --> pg_query(): Query failed: ERROR:  relation &quot;app_produto_vendas&quot; does not exist
+LINE 2: FROM &quot;app_produto_vendas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(453): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Home.php(31): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-26 18:12:37 --> pg_query(): Query failed: ERROR:  column &quot;id_empresa&quot; does not exist
+LINE 3: WHERE &quot;id_empresa&quot; = '1'
+              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT COUNT(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(32): App\Models\PadraoModel->getCount('app_pontos', '*', 'count', 'id_empresa', '1')
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->list('0')
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-26 18:12:46 --> pg_query(): Query failed: ERROR:  column &quot;id_empresa&quot; does not exist
+LINE 3: WHERE &quot;id_empresa&quot; = '1'
+              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT COUNT(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(32): App\Models\PadraoModel->getCount('app_fotos', '*', 'count', 'id_empresa', '1')
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list('0')
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-26 18:13:00 --> pg_query(): Query failed: ERROR:  column &quot;id_empresa&quot; does not exist
+LINE 3: WHERE &quot;id_empresa&quot; = '1'
+              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT COUNT(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(31): App\Models\PadraoModel->getCount('app_produto_ven...', '*', 'count', 'id_empresa', '1')
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list('0')
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-01-26 18:22:09 --> A non-numeric value encountered
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Users/vitor/Do...', 31, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list('0')
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-26 18:24:01 --> A non-numeric value encountered
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Venda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Users/vitor/Do...', 31, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Venda->list('0')
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-26 18:26:16 --> A non-numeric value encountered
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Users/vitor/Do...', 87, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->listComEndereco('0')
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-26 19:29:29 --> include(includes/admin_paginacao.php): failed to open stream: No such file or directory
+#0 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', '/Users/vitor/Do...', 101, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include()
+#2 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#4 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Ponto.php(123): view('admin/padrao/ma...', Array)
+#5 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Ponto->listComEndereco('0')
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ponto))
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#10 {main}
+CRITICAL - 2021-01-26 22:26:41 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:27:00 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:27:02 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:27:07 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:28:27 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:28:59 --> A ação que você solicitou não é permitida.
+#0 /Users/vitor/Documents/GitHub/fetx/system/Security/Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Users/vitor/Documents/GitHub/fetx/system/Filters/CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Users/vitor/Documents/GitHub/fetx/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('consultapontose...', 'before')
+#4 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#7 {main}
+CRITICAL - 2021-01-26 22:49:40 --> Undefined variable: limit
+#0 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/vitor/Do...', 49, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#2 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#3 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-01-26 22:57:16 --> pg_query(): Query failed: ERROR:  column p.id_usuario does not exist
+LINE 1: ... count(*) FROM pessoas p LEFT JOIN usuarios u ON (p.id_usuar...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/Database/Postgre/Connection.php(196): pg_query(Resource id #14, 'SELECT count(*)...')
+#2 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 /Users/vitor/Documents/GitHub/fetx/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Models/PadraoModel.php(461): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#5 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Pessoa.php(32): App\Models\PadraoModel->getQueryCustom('SELECT count(*)...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Pessoa->list('0')
+#7 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-01-26 22:57:22 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(69): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
+CRITICAL - 2021-01-26 23:04:26 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(69): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
+CRITICAL - 2021-01-26 23:04:53 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(69): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
+CRITICAL - 2021-01-26 23:05:41 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(69): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
+CRITICAL - 2021-01-26 23:06:38 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Foto.php(71): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\Foto->list()
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Foto))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
+CRITICAL - 2021-01-26 23:07:53 --> Undefined index: 
+#0 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/vitor/Do...', 261, Array)
+#1 /Users/vitor/Documents/GitHub/fetx/system/HTTP/URI.php(1002): CodeIgniter\HTTP\URI->getAuthority()
+#2 /Users/vitor/Documents/GitHub/fetx/system/Helpers/url_helper.php(128): CodeIgniter\HTTP\URI->resolveRelativeURI('http://localhos...')
+#3 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/includes/admin_paginacao.php(1): base_url('http://localhos...')
+#4 /Users/vitor/Documents/GitHub/fetx/app/Views/admin/padrao/main_list.php(101): include('/Users/vitor/Do...')
+#5 /Users/vitor/Documents/GitHub/fetx/system/View/View.php(246): include('/Users/vitor/Do...')
+#6 /Users/vitor/Documents/GitHub/fetx/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#7 /Users/vitor/Documents/GitHub/fetx/app/Controllers/Km.php(66): view('admin/padrao/ma...', Array)
+#8 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(914): App\Controllers\km->list('0')
+#9 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\km))
+#10 /Users/vitor/Documents/GitHub/fetx/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/vitor/Documents/GitHub/fetx/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /Users/vitor/Documents/GitHub/fetx/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#13 {main}
