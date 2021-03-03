@@ -285,7 +285,7 @@ class Compra extends BaseController
 		helper(['url']);
 
 		if (!empty($name)) {
-			$url_file = base_url('compra/' . $name);
+			$url_file = base_url('ticket/' . $name);
 
 			return redirect()->to($url_file);
 			//return $this->response->download($file,null);
