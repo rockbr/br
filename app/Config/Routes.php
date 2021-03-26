@@ -58,6 +58,7 @@ $routes->post('deletacompras', 'Compra::delete');
 $routes->post('salvacompras', 'Compra::salva');
 $routes->get('anexo/(:any)', 'Compra::anexo/$1');
 
+$routes->post('pagarreceberpormes', 'Fluxo::pagarReceberPorMes');
 $routes->post('pagarpormes', 'Fluxo::pagarPorMes');
 $routes->post('receberpormes', 'Fluxo::receberPorMes');
 $routes->get('consultadashboard', 'Fluxo::dashboard');

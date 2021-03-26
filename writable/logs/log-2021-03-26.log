@@ -1,0 +1,60 @@
+CRITICAL - 2021-03-26 06:10:14 --> Undefined property: App\Controllers\Home::$tabela
+#0 /Users/vitor/Documents/GitHub/br/app/Controllers/Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/vitor/Do...', 36, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-03-26 16:44:22 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;SSELECT&quot;
+LINE 1: SSELECT to_char(f.data_vencimento,'DD') AS dia, 
+        ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SSELECT to_char...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SSELECT to_char...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SSELECT to_char...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SSELECT to_char...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(224): App\Models\PadraoModel->getQueryCustomTrio('SSELECT to_char...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarReceberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-26 16:44:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-26 16:45:15 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;SSELECT&quot;
+LINE 1: SSELECT to_char(f.data_vencimento,'DD') AS dia, 
+        ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SSELECT to_char...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SSELECT to_char...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SSELECT to_char...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SSELECT to_char...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(224): App\Models\PadraoModel->getQueryCustomTrio('SSELECT to_char...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarReceberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-26 16:45:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

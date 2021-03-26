@@ -132,7 +132,7 @@ class Fluxo extends BaseController
 		$sql = 'SELECT to_char(data_vencimento,\'DD\') AS dia, SUM(valor) AS valor
         FROM fin_movimento_financeiro 
         WHERE baixada=FALSE AND to_char(data_vencimento,\'MM/YYYY\') =\'' . $query . '\' AND id_tipo_movimento_financeiro=\'CR\'
-        GROUP BY data_vencimento';
+        GROUP BY data_vencimento ORDER BY data_vencimento';
 
 		$retorno = $model->getQueryCustomTrio($sql);
 
@@ -174,7 +174,7 @@ class Fluxo extends BaseController
 		$sql = 'SELECT to_char(data_vencimento,\'DD\') AS dia, SUM(valor) AS valor 
         FROM fin_movimento_financeiro 
         WHERE baixada=FALSE AND to_char(data_vencimento,\'MM/YYYY\') =\'' . $query . '\' AND id_tipo_movimento_financeiro=\'CP\' 
-        GROUP BY data_vencimento';
+        GROUP BY data_vencimento ORDER BY data_vencimento';
 
 		$retorno = $model->getQueryCustomTrio($sql);
 
@@ -192,6 +192,53 @@ class Fluxo extends BaseController
 				'csrf_hash' => $security->getCSRFHash(),
 				'labels' =>  '',
 				'points' => '',
+			);
+		}
+
+		echo json_encode($reponse);
+		die;
+	}
+
+	public function pagarReceberPorMes()
+	{
+		helper('form', 'url');
+
+		if (!$this->session->get('logado')) {
+			return redirect()->to('/');
+		}
+
+		$model = new PadraoModel();
+		$security = \Config\Services::security();
+		$reponse = array();
+		$retorno = array();
+
+		$query = $this->request->getVar('query');
+		
+		$sql = 'SELECT to_char(f.data_vencimento,\'DD\') AS dia, 
+		coalesce((SELECT SUM(valor) AS valor FROM fin_movimento_financeiro p WHERE p.baixada=FALSE AND p.data_vencimento=f.data_vencimento AND (p.id_tipo_movimento_financeiro=\'CP\') GROUP BY p.data_vencimento),0) as pagar, 
+		coalesce((SELECT SUM(valor) AS valor FROM fin_movimento_financeiro r WHERE r.baixada=FALSE AND r.data_vencimento=f.data_vencimento AND (r.id_tipo_movimento_financeiro=\'CR\') GROUP BY r.data_vencimento),0) as receber 
+		FROM fin_movimento_financeiro f 
+		WHERE f.baixada=FALSE AND to_char(f.data_vencimento,\'MM/YYYY\') =\'' . $query . '\'  AND (f.id_tipo_movimento_financeiro=\'CR\' OR f.id_tipo_movimento_financeiro=\'CR\') 
+		GROUP BY f.data_vencimento ORDER BY f.data_vencimento;';
+
+		$retorno = $model->getQueryCustomTrio($sql);
+
+		if ($retorno != null) {
+		
+			$reponse = array(
+				'csrf_name' => $security->getCSRFTokenName(),
+				'csrf_hash' => $security->getCSRFHash(),
+				'labels' => array_column($retorno, 'dia'),
+				'pointspagar' => array_column($retorno, 'pagar'),
+				'pointsreceber' => array_column($retorno, 'receber'),
+			);
+		} else {
+			$reponse = array(
+				'csrf_name' => $security->getCSRFTokenName(),
+				'csrf_hash' => $security->getCSRFHash(),
+				'labels' =>  '',
+				'pointspagar' => '',
+				'pointsreceber' => '',
 			);
 		}
 

@@ -5,7 +5,31 @@ Chart.defaults.global.defaultFontColor = '#292b2c';
 
 $(document).ready(function () {
 
-  $("select[name=mes_ano]").change(function () {
+  $("select[name=pagar_receber_mes_ano]").change(function () {
+    var csrf_hash = $("input[name=csrf_test_name]").val(); // CSRF hash
+    var query = $(this).val();
+    return $.ajax({
+      type: 'POST',
+      url: '/pagarreceberpormes',
+      data: { csrf_test_name: csrf_hash, query: query },
+      dataType: 'json',
+    })
+      .done(function (response) {
+        $('input[name=csrf_test_name]').val(response.csrf_hash);
+
+        //Remove e add novamente para limpar os dados e não dar erro na apresentacao
+        $("canvas#chartReportPagarReceberPorMes").remove();
+        document.querySelector("#chartReportPagarReceberPorMes").innerHTML = '<canvas id="chartPagarReceberPorMes" width="100%" height="50"></canvas>';
+
+        var chart = document.getElementById("chartPagarReceberPorMes").getContext("2d");
+        renderGraphLine(chart, response.labels, response.pointspagar, response.pointsreceber);
+      })
+      .fail(function (jqXHR, textStatus, msg) {
+        alert(msg);
+      });
+  });
+
+  $("select[name=pagar_mes_ano]").change(function () {
     var csrf_hash = $("input[name=csrf_test_name]").val(); // CSRF hash
     var query = $(this).val();
     return $.ajax({
@@ -29,7 +53,7 @@ $(document).ready(function () {
       });
   });
 
-  $("select[name=mes_ano]").change(function () {
+  $("select[name=receber_mes_ano]").change(function () {
     var csrf_hash = $("input[name=csrf_test_name]").val(); // CSRF hash
     var query = $(this).val();
     return $.ajax({
@@ -97,6 +121,27 @@ window.onload = function () {
         });
     });
   }
+
+  var chartPagarReceberPorMes = document.getElementById("chartPagarReceberPorMes").getContext("2d");
+
+  if (chartPagarReceberPorMes != null) {
+    $(document).ready(function () {
+      var csrf_hash = $("input[name=csrf_test_name]").val(); // CSRF hash
+      return $.ajax({
+        type: 'POST',
+        url: '/pagarreceberpormes',
+        data: { csrf_test_name: csrf_hash, query: dataAtualFormatada() },
+        dataType: 'json',
+      })
+        .done(function (response) {
+          $('input[name=csrf_test_name]').val(response.csrf_hash);
+          renderGraphLine(chartPagarReceberPorMes, response.labels, response.pointspagar, response.pointsreceber);
+        })
+        .fail(function (jqXHR, textStatus, msg) {
+          alert(msg);
+        });
+    });
+  }
 }
 
 var renderGraph = function (chart, rotulos, dados, cor) {
@@ -143,6 +188,58 @@ var renderGraph = function (chart, rotulos, dados, cor) {
       },
       legend: {
         display: false
+      }
+    }
+  })
+};
+
+var renderGraphLine = function (chart, rotulos, pagar, receber) {
+
+  var lineChartData = new Chart(chart, {
+    type: 'line',
+    data: {
+      labels: rotulos,
+      datasets: [{
+        label: 'Pagar',
+        borderColor: 'red',
+        backgroundColor: 'red',
+        pointBackgroundColor: 'DarkRed',
+        pointBorderColor: 'DarkRed',       
+        fill: false,        
+        data: pagar,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Receber',
+        borderColor: 'blue',
+        backgroundColor: 'blue',
+        pointBackgroundColor: 'DarkBlue',
+        pointBorderColor: 'DarkBlue',
+        fill: false,
+        data: receber,
+        yAxisID: 'y-axis-2'
+      }]
+    },
+     options: {
+      responsive: true,
+      hoverMode: 'index',
+      stacked: false,
+      scales: {
+        yAxes: [{
+          type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+          display: true,
+          position: 'left',
+          id: 'y-axis-1',
+        }, {
+          type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+          display: true,
+          position: 'right',
+          id: 'y-axis-2',
+
+          // grid line settings
+          gridLines: {
+            drawOnChartArea: false, // only want the grid lines for one axis to show up
+          },
+        }],
       }
     }
   })
