@@ -1,0 +1,64 @@
+CRITICAL - 2021-03-16 18:39:18 --> Arquivo inválido: admin/padrao/main_header.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/padrao/ma...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/padrao/ma...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Pessoa.php(76): view('admin/padrao/ma...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Pessoa->list()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-03-16 23:07:38 --> Undefined property: App\Controllers\Fluxo::$tabela
+#0 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/vitor/Do...', 42, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#2 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#6 {main}
+CRITICAL - 2021-03-16 23:08:12 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;(&quot;
+LINE 5:         (SELECT SUM(p.valor) FROM fin_movimento_financeiro p...
+                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT 0 AS id,...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT 0 AS id,...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 0 AS id,...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(71): App\Models\PadraoModel->getQueryCustom('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-16 23:08:45 --> pg_query(): Query failed: ERROR:  relation &quot;fin_movimento_financeiro&quot; does not exist
+LINE 7:         FROM fin_movimento_financeiro f
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT 0 AS id,...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT 0 AS id,...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 0 AS id,...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(472): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(71): App\Models\PadraoModel->getQueryCustom('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-16 23:42:23 --> pg_query(): Query failed: ERROR:  function o_char(double precision, unknown) does not exist
+LINE 3:         (SELECT o_char(SUM(r.valor),'&quot;R$ &quot; 999G999G990D99') ...
+                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT 0 AS id,...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT 0 AS id,...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 0 AS id,...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(71): App\Models\PadraoModel->getQueryCustomTrio('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}

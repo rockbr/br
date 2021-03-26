@@ -1,0 +1,300 @@
+CRITICAL - 2021-03-17 00:28:20 --> Arquivo inválido: admin/financeuro/dashboard_contas.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/financeur...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/financeur...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(37): view('admin/financeur...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->dashboard()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-03-17 00:31:57 --> Arquivo inválido: admin/financeuro/dashboard_contas.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/financeur...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/financeur...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(37): view('admin/financeur...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->dashboard()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-03-17 00:32:28 --> Arquivo inválido: admin/financeuro/dashboard_contas.php
+#0 /Users/vitor/Documents/GitHub/br/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/financeur...')
+#1 /Users/vitor/Documents/GitHub/br/system/Common.php(1087): CodeIgniter\View\View->render('admin/financeur...', Array, true)
+#2 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(37): view('admin/financeur...', Array)
+#3 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->dashboard()
+#4 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#5 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#8 {main}
+CRITICAL - 2021-03-17 00:59:00 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(181): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 00:59:00 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(139): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->receberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 00:59:24 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(181): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 00:59:24 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(139): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->receberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 00:59:46 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(181): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 00:59:46 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(139): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->receberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 00:59:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 01:01:46 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(180): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 01:01:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 01:01:46 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(138): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->receberPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 01:01:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 01:02:15 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(182): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 01:02:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-17 01:02:20 --> pg_query(): Query failed: ERROR:  operator does not exist: text = integer
+LINE 3: ...xada=FALSE AND to_char(data_vencimento,'MM/YYYY') =03/2021 A...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #16, 'SELECT to_char(...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT to_char(...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT to_char(...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(182): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->pagarPorMes()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-17 01:02:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Falha ao analisar a string json, erro: "Type is not supported". in /Users/vitor/Documents/GitHub/br/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Users/vitor/Documents/GitHub/br/system/Format/JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Users/vitor/Documents/GitHub/br/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Users/vitor/Documents/GitHub/br/system/Debug/Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

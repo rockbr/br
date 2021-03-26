@@ -1,0 +1,49 @@
+CRITICAL - 2021-03-19 17:25:12 --> pg_query(): Query failed: ERROR:  column &quot;data_saldo_inicial&quot; does not exist
+LINE 1: SELECT &quot;id&quot;, &quot;nome&quot;, &quot;cnpj&quot;, &quot;ie&quot;, &quot;observacao&quot;, &quot;data_saldo...
+                                                         ^
+HINT:  Perhaps you meant to reference the column &quot;empresas.data_saldo_inical&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT "id", "n...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(454): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Empresa.php(113): App\Models\PadraoModel->getQuery(Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Empresa->cadastro('1')
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-03-19 17:26:19 --> pg_query(): Query failed: ERROR:  invalid input syntax for type double precision: &quot;730391,42&quot;
+LINE 1: ..._saldo_inicial&quot; = '2021-03-19', &quot;saldo_inicial&quot; = '730391,42...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #15, 'UPDATE "empresa...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "empresa...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "empresa...')
+#4 /Users/vitor/Documents/GitHub/br/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE "empresa...', Array, false)
+#5 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(621): CodeIgniter\Database\BaseBuilder->update()
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Empresa.php(317): App\Models\PadraoModel->setInsertUpdateTransactions('empresas', Array, '1', 'id_empresa', Array)
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Empresa->salva()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-03-19 17:36:12 --> pg_query(): Query failed: ERROR:  column f.data_vecimento does not exist
+LINE 1: SELECT 0 AS id, to_char((f.data_vecimento + INTERVAL '1 day'...
+                                 ^
+HINT:  Perhaps you meant to reference the column &quot;f.data_vencimento&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #13, 'SELECT 0 AS id,...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT 0 AS id,...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 0 AS id,...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(94): App\Models\PadraoModel->getQueryCustomTrio('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}

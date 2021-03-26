@@ -16,6 +16,17 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-store-alt"></i></div>
                         Compras
                     </a>
+                    
+                    <div class="sb-sidenav-menu-heading">Financeiro</div>
+                    <a class="nav-link collapsed" <?php echo 'href="' . site_url('consultadashboard') . '"'; ?>>
+                        <div class="sb-nav-link-icon"><i class="fas fa-ticket-alt"></i></div>
+                        Dashboard
+                    </a>
+                    <a class="nav-link collapsed" <?php echo 'href="' . site_url('consultafluxo') . '"'; ?>>
+                        <div class="sb-nav-link-icon"><i class="fas fa-ticket-alt"></i></div>
+                        Fluxo
+                    </a>
+                    
                     <div class="sb-sidenav-menu-heading">Administração</div>
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCadastro" aria-expanded="false" aria-controls="collapseCadastro">
                         <div class="sb-nav-link-icon"><i class="fas fa-pen-square"></i></div>
@@ -23,16 +34,28 @@
                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                     </a>
                     <div class="collapse" id="collapseCadastro" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                        <nav class="sb-sidenav-menu-nested nav">
-                            <?php echo '<a class="nav-link" href="' . site_url('consultagruposusuarios') . '">Grupo Usuários</a>'; ?>
-                        </nav>
                         <?php if ($session->get('super') == 'true' || $session->get('super') == 't') : ?>
                             <?php echo '<nav class="sb-sidenav-menu-nested nav">'; ?>
                             <?php echo '<a class="nav-link" href="' . site_url('consultaempresas') . '">Empresas</a>'; ?>
                             <?php echo '</nav>'; ?>
                         <?php endif; ?>
                         <nav class="sb-sidenav-menu-nested nav">
+                            <?php echo '<a class="nav-link" href="' . site_url('consultapessoas') . '">Pessoa</a>'; ?>
+                        </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <?php echo '<a class="nav-link" href="' . site_url('consultaprodutos') . '">Produtos</a>'; ?>
+                        </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
                             <?php echo '<a class="nav-link" href="' . site_url('consultausuarios') . '">Usuários</a>'; ?>
+                        </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <?php echo '<a class="nav-link" href="' . site_url('consultagrupospessoas') . '">Grupo Clientes</a>'; ?>
+                        </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <?php echo '<a class="nav-link" href="' . site_url('consultagruposprodutos') . '">Grupo Produtos</a>'; ?>
+                        </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <?php echo '<a class="nav-link" href="' . site_url('consultagruposusuarios') . '">Grupo Usuários</a>'; ?>
                         </nav>
                     </div>
                 </div>

@@ -58,12 +58,41 @@ $routes->post('deletacompras', 'Compra::delete');
 $routes->post('salvacompras', 'Compra::salva');
 $routes->get('anexo/(:any)', 'Compra::anexo/$1');
 
+$routes->post('pagarpormes', 'Fluxo::pagarPorMes');
+$routes->post('receberpormes', 'Fluxo::receberPorMes');
+$routes->get('consultadashboard', 'Fluxo::dashboard');
+$routes->match(['get', 'post'], 'consultafluxo', 'Fluxo::list');
+
 $routes->match(['get', 'post'], 'consultatickets', 'Ticket::list');
 $routes->get('novotickets', 'Ticket::cadastro');
 $routes->get('editatickets/(:num)', 'Ticket::cadastro/$1');
 $routes->post('deletatickets', 'Ticket::delete');
 $routes->post('salvatickets', 'Ticket::salva');
 $routes->get('anexo/(:any)', 'Ticket::anexo/$1');
+
+$routes->match(['get', 'post'], 'consultapessoas', 'Pessoa::list');
+$routes->get('novopessoas', 'Pessoa::cadastro');
+$routes->get('editapessoas/(:num)', 'Pessoa::cadastro/$1');
+$routes->post('deletapessoas', 'Pessoa::delete');
+$routes->post('salvapessoas', 'Pessoa::salva');
+
+$routes->match(['get', 'post'], 'consultagrupospessoas', 'GrupoPessoa::list');
+$routes->get('novogrupospessoas', 'GrupoPessoa::cadastro');
+$routes->get('editagrupospessoas/(:num)', 'GrupoPessoa::cadastro/$1');
+$routes->post('deletagrupospessoas', 'GrupoPessoa::delete');
+$routes->post('salvagrupospessoas', 'GrupoPessoa::salva');
+
+$routes->match(['get', 'post'], 'consultagruposprodutos', 'GrupoProduto::list');
+$routes->get('novogruposprodutos', 'GrupoProduto::cadastro');
+$routes->get('editagruposprodutos/(:num)', 'GrupoProduto::cadastro/$1');
+$routes->post('deletagruposprodutos', 'GrupoProduto::delete');
+$routes->post('salvagruposprodutos', 'GrupoProduto::salva');
+
+$routes->match(['get', 'post'], 'consultaprodutos', 'Produto::list');
+$routes->get('novoprodutos', 'Produto::cadastro');
+$routes->get('editaprodutos/(:num)', 'Produto::cadastro/$1');
+$routes->post('deletaprodutos', 'Produto::delete');
+$routes->post('salvaprodutos', 'Produto::salva');
 
 $routes->match(['get', 'post'], 'consultausuarios', 'Usuario::list');
 $routes->get('novousuarios', 'Usuario::cadastro');

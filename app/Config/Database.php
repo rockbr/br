@@ -52,6 +52,33 @@ class Database extends \CodeIgniter\Database\Config
 	];
 
 	/**
+	 * The trio database connection.
+	 *
+	 * @var array
+	 */
+	public $trio = [
+		'DSN'      => '',
+		'hostname' => '191.255.89.62',
+		'username' => 'varejo',
+		'password' => 'p@ssw0rd',
+		'database' => 'triata_varejo',
+		'DBDriver' => 'Postgre',
+		'DBPrefix' => '',
+		'pConnect' => false,
+		'DBDebug'  => (ENVIRONMENT !== 'production'),
+		'cacheOn'  => false,
+		'cacheDir' => '',
+		'charset'  => 'utf8',
+		'DBCollat' => 'utf8_general_ci',
+		'swapPre'  => '',
+		'encrypt'  => false,
+		'compress' => false,
+		'strictOn' => false,
+		'failover' => [],
+		'port'     => 5432,
+	];
+
+	/**
 	 * This database connection is used when
 	 * running PHPUnit database tests.
 	 *

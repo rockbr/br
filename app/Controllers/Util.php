@@ -14,25 +14,40 @@ class Util extends BaseController
 		$this->session = \Config\Services::session();
 	}
 
-	public function comboProdutosVendasMesAno()
+	public function comboReceberMesAno()
 	{
 		if (!$this->session->get('logado')) {
 			return redirect()->to('/');
 		}
 
 		$model = new PadraoModel();
-		$paramsGrupo = array(
-			'fields' => array('to_char(app_produto_vendas.data_app,\'MM/YYYY\') AS mes_ano'), //OK
-			'from' =>  'app_produto_vendas', //OK	
-			'where' => array('usuarios.id_empresa' =>  $this->session->get('id_empresa')),
-			'join' => array('usuarios' => array('usuarios.id = app_produto_vendas.id_usuario', 'left')), //Option: left | right | outer | inner | left outer | right outer			
-			'group_by' => array('mes_ano'),
-			'order_by' => 'mes_ano', //OK
-			'order_by_direction' => 'DESC', //OK
 
-		);
+		$sql = 'SELECT to_char(data_vencimento,\'MM/YYYY\') AS mes_ano
+        FROM fin_movimento_financeiro
+        WHERE baixada=FALSE AND id_tipo_movimento_financeiro=\'CR\'
+        GROUP BY mes_ano
+        ORDER BY mes_ano';
 
-		return $model->getQuery($paramsGrupo);
+
+		return $model->getQueryCustomTrio($sql);
+	}
+
+	public function comboPagarMesAno()
+	{
+		if (!$this->session->get('logado')) {
+			return redirect()->to('/');
+		}
+
+		$model = new PadraoModel();
+
+		$sql = 'SELECT to_char(data_vencimento,\'MM/YYYY\') AS mes_ano
+        FROM fin_movimento_financeiro
+        WHERE baixada=FALSE AND id_tipo_movimento_financeiro=\'CP\'
+        GROUP BY mes_ano
+        ORDER BY mes_ano';
+
+
+		return $model->getQueryCustomTrio($sql);
 	}
 
 	public function comboSituacaoTicket()

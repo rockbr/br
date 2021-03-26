@@ -45,7 +45,7 @@ class Usuario extends BaseController
 			$usuario = $this->request->getVar('login');
 			$senha = $this->request->getVar('senha');
 			$lembrete = strtolower($this->request->getVar('lembrete'));
-			$expira = time() + 60 * 60 * 24 * 30;			
+			$expira = time() + 60 * 60 * 24 * 30;
 
 			setCookie('cookie_0', base64_encode($lembrete == 'on' ? $lembrete : 'off'), $expira, site_url());
 			setCookie('cookie_1', ($lembrete == 'on' ? base64_encode($usuario) : ''), $expira, site_url());
@@ -68,7 +68,7 @@ class Usuario extends BaseController
 				$this->session->set('login_usuario', $table_tbody[0]['login']);
 				$this->session->set('grupo_usuario', $table_tbody[0]['grupo']);
 				$this->session->set('id_grupo_usuario', $table_tbody[0]['id_grupo']);
-				$this->session->set('id_categoria_lista', $table_tbody[0]['id_categoria_lista']);				
+				$this->session->set('id_categoria_lista', $table_tbody[0]['id_categoria_lista']);
 				$this->session->set('id_empresa', $table_tbody[0]['id_empresa']);
 				$this->session->set('super', $table_tbody[0]['super']);
 				$this->session->set('logado', true);
@@ -117,7 +117,7 @@ class Usuario extends BaseController
 
 		$model = new PadraoModel();
 		$sucesso = $this->session->get($this->tabela . '_cadastrado');
-		$this->session->set($this->tabela . '_cadastrado', null);		
+		$this->session->set($this->tabela . '_cadastrado', null);
 
 		$data_header = array(
 			'titulo' => 'Consulta',
@@ -137,7 +137,7 @@ class Usuario extends BaseController
 			'offset' => $offset,
 			'limit' => $limit,
 		);
-		
+
 		$table_tbody = $model->getQuery($params);
 		$table_count = $model->getQuery($params, true);
 
@@ -199,8 +199,8 @@ class Usuario extends BaseController
 			'titulo' => 'Cadastro de Usuários',
 			'url_salvar' => 'salvausuarios',
 			'dados' => $dados,
-			'grupo_usuario' => $util->comboGrupoUsuario(),		
-			'categorias' => $util->comboCategoriaTicket(),			
+			'grupo_usuario' => $util->comboGrupoUsuario(),
+			'categorias' => $util->comboCategoriaTicket(),
 			'erro' => $erro,
 		);
 
@@ -245,7 +245,7 @@ class Usuario extends BaseController
 		$validacao = self::valida();
 
 		$id = $this->request->getVar('id');
-		$senha = $this->request->getVar('senha');		
+		$senha = $this->request->getVar('senha');
 		$id_categoria_lista = $this->request->getVar('id_categoria_lista');
 
 		//Create Data Array
@@ -255,9 +255,9 @@ class Usuario extends BaseController
 			'bloqueado' => $this->request->getVar('bloqueado') != "on" ? '0' : '1',
 			'id_grupo_usuario' => $this->request->getVar('id_grupo_usuario'),
 			'id_empresa' => $this->session->get('id_empresa'),
-			'senha' => md5($senha),			
-			'acesso_admin' => $this->request->getVar('acesso_admin') != "on" ? '0' : '1',	
-			'id_categoria_lista' => ($id_categoria_lista != null ? '{' . implode(',', $id_categoria_lista) . '}' : null),		
+			'senha' => md5($senha),
+			'acesso_admin' => $this->request->getVar('acesso_admin') != "on" ? '0' : '1',
+			'id_categoria_lista' => ($id_categoria_lista != null ? '{' . implode(',', $id_categoria_lista) . '}' : null),
 		);
 
 
@@ -326,7 +326,7 @@ class Usuario extends BaseController
 			$model->setDeleteSoft('usuarios_hashs', $where);
 
 			//E-mail			
-			$email->setTo($usuario);			
+			$email->setTo($usuario);
 			$email->setSubject('Acesso ao Reset de sua senha FeTx');
 			$email->setMessage('Olá, Você solicitou uma nova senha no site da FeTx. Para concluir esta operação, basta clicar no link abaixo.<br/><a href="' . base_url('/novasenhatoken//' . $token) . '">Refinir nova senha</a><br/><br/>Atenção, link é válido por apenas 2 horas. Após esse período, você deverá fazer uma nova solicitação.');
 			$email->send();

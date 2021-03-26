@@ -4,9 +4,9 @@ namespace App\Controllers;
 
 use App\Models\PadraoModel;
 
-class Empresa extends BaseController
+class Pessoa extends BaseController
 {
-	protected $tabela = 'empresas';
+	protected $tabela = 'pessoas';
 	protected $session;
 
 	function __construct()
@@ -37,20 +37,18 @@ class Empresa extends BaseController
 
 		$model = new PadraoModel();
 		$sucesso = $this->session->get($this->tabela . '_cadastrado');
-		$this->session->set($this->tabela . '_cadastrado', null);
+		$this->session->set($this->tabela . '_cadastrado', null);				
 
 		$data_header = array(
 			'titulo' => 'Consulta',
-			'subtitulo' => 'CONSULTA EMPRESAS',
-			'session' => $this->session,
-			'super' => $this->session->get('super')
+			'subtitulo' => 'CONSULTA CLIENTES',
+			'session' => $this->session
 		);
 
 		$params = array(
-			'fields' => array('id', 'nome', 'cnpj'), //OK
-
+			'fields' => array('id', 'nome', 'cpf_cnpj'), //OK
 			'from' =>  $this->tabela, //OK
-
+			'where' => array('id_empresa' =>  $this->session->get('id_empresa')),
 			'order_by' => 'nome', //OK
 			'order_by_direction' => 'ASC', //OK
 			'offset' => $offset,
@@ -61,18 +59,18 @@ class Empresa extends BaseController
 		$table_count = $model->getQuery($params, true);
 
 		$data = array(
-			'table_thead' =>  array('Nome', 'CNPJ'),
+			'table_thead' =>  array('Nome', 'CPF/CNPJ'),
 			'table_tbody' => $table_tbody,
 			'sucesso' => $sucesso,
-			'acoes_novo' => 'novoempresas',
-			'acoes_editar' => 'editaempresas',
-			'acoes_deletar' => 'deletaempresas',
+			'acoes_novo' => 'novopessoas',
+			'acoes_editar' => 'editapessoas',
+			'acoes_deletar' => 'deletapessoas',
 			'pagina' => $pagina,
 			'paginacao_de' => ($offset + 1),
 			'paginacao_ate' => ($offset == 0 ? count($table_tbody) : ($offset + count($table_tbody))),
 			'paginacao_total' => $table_count[0]['count'],
 			'limite' => $limit,
-			'url' => site_url('consultaempresas'),
+			'url' => site_url('consultapessoas'),
 		);
 
 		echo view('admin/main_header', $data_header);
@@ -92,6 +90,7 @@ class Empresa extends BaseController
 		$util = new Util();
 		$dados = array();
 
+		//Recupera os dados que foi salvo no Salvar para setar 
 		$dados = $this->session->get($this->tabela . '_dados');
 		$erro = $this->session->get($this->tabela . '_erro');
 		$this->session->set($this->tabela . '_dados', null);
@@ -105,12 +104,12 @@ class Empresa extends BaseController
 
 			$this->session->set($this->tabela . '_id', $id);
 
-			$paramsEmpresa = array(
-				'fields' => array('id', 'nome', 'cnpj', 'ie', 'observacao', 'data_saldo_inicial', 'saldo_inicial'),
+			$paramsPessoas = array(
+				'fields' => array('id', 'nome', 'cpf_cnpj', 'rg_ie', 'id_grupo_pessoa', 'observacao', 'tipo'),
 				'from' =>  $this->tabela,
 				'where' => array('id' => $id)
 			);
-			$dados = $model->getQuery($paramsEmpresa);
+			$dados = $model->getQuery($paramsPessoas);
 
 			if ($dados != null) {
 				$dados = $dados[0];
@@ -121,7 +120,7 @@ class Empresa extends BaseController
 			$paramsTelefones = array(
 				'fields' => array('id', 'numero', 'id_tipo'),
 				'from' =>  $this->tabela . '_telefones',
-				'where' => array('id_empresa' => $id),
+				'where' => array('id_pessoa' => $id),
 			);
 
 			$dadosTelefones = $model->getQuery($paramsTelefones);
@@ -145,7 +144,7 @@ class Empresa extends BaseController
 			$paramsContatos = array(
 				'fields' => array('id', 'contato', 'id_tipo'),
 				'from' =>  $this->tabela . '_contatos',
-				'where' => array('id_empresa' => $id),
+				'where' => array('id_pessoa' => $id),
 			);
 
 			$dadosContatos = $model->getQuery($paramsContatos);
@@ -175,7 +174,7 @@ class Empresa extends BaseController
 			$paramsEnderecos = array(
 				'fields' => array('id', 'cep', 'logradouro', 'numero', 'bairro', 'complemento', 'cidade', 'id_estado'),
 				'from' =>  $this->tabela . '_enderecos',
-				'where' => array('id_empresa' => $id),
+				'where' => array('id_pessoa' => $id),
 				'limit' => 1
 			);
 
@@ -193,6 +192,7 @@ class Empresa extends BaseController
 			}
 
 			#endregion
+
 		}
 
 		#endregion
@@ -202,15 +202,16 @@ class Empresa extends BaseController
 		);
 
 		$data = array(
-			'titulo' => 'Cadastro de Empresas',
-			'url_salvar' => 'salvaempresas',
+			'titulo' => 'Cadastro de Clientes',
+			'url_salvar' => 'salvapessoas',
 			'dados' => $dados,
-			'erro' => $erro,
+			'grupo_pessoa' => $util->comboGrupoPessoa(),
 			'estados' => $util->comboEstado(),
+			'erro' => $erro,
 		);
 
 		echo view('admin/main_header', $data_header);
-		echo view('admin/empresa/cadastro_' . $this->tabela,  $data);
+		echo view('admin/pessoa/cadastro_' . $this->tabela,  $data);
 		echo view('admin/main_footer');
 	}
 
@@ -247,8 +248,8 @@ class Empresa extends BaseController
 			return redirect()->to('/');
 		}
 
-		$util = new Util();
 		$model = new PadraoModel();
+		$util = new Util();
 		$validacao = self::valida();
 
 		//Pega o ID na sessão e depois a apaga ele
@@ -266,11 +267,12 @@ class Empresa extends BaseController
 		//Create Data Array
 		$dados = array(
 			'nome' => $this->request->getVar('nome'),
-			'cnpj' => $this->request->getVar('cnpj'),
-			'ie' => $this->request->getVar('ie'),
+			'cpf_cnpj' => $this->request->getVar('cpf_cnpj'),
+			'rg_ie' => $this->request->getVar('rg_ie'),
+			'id_empresa' => $this->session->get('id_empresa'),
+			'id_grupo_pessoa' => $this->request->getVar('id_grupo_pessoa'),
 			'observacao' => $this->request->getVar('observacao'),
-			'data_saldo_inicial' => $this->request->getVar('data_saldo_inicial'),
-			'saldo_inicial' => floatval(str_replace(',', '.', $this->request->getVar('saldo_inicial')))
+			'tipo' => $this->request->getVar('pf_pj') . 'C', //Concatena o C de CLIENTE
 		);
 
 		#region Endereco
@@ -307,25 +309,30 @@ class Empresa extends BaseController
 		#endregion
 
 		$relationships = array(
-			'empresas_telefones' => array($telefoneCelular, $telefoneFixo),
-			'empresas_contatos' => array($contatoEmail, $contatoTwitter, $contatofacebook, $contatoInstagram),
-			'empresas_enderecos' => array($endereco)
+			'pessoas_telefones' => array($telefoneCelular, $telefoneFixo),
+			'pessoas_contatos' => array($contatoEmail, $contatoTwitter, $contatofacebook, $contatoInstagram),
+			'pessoas_enderecos' => array($endereco),
 		);
 
 		if ($validacao) {
 
-			$model->setInsertUpdateTransactions($this->tabela, $dados, $id, 'id_empresa', $relationships);
+
+			//Remove o id_empresa pois não pode fazer update desse campo
+			if ($id != null && $id >= 0)
+				unset($dados['id_empresa']);
+
+			$model->setInsertUpdateTransactions($this->tabela, $dados, $id, 'id_pessoa', $relationships);
 
 			if ($id == null || $id <= 0) {
 				$this->session->set($this->tabela . '_cadastrado', '1');
 			} else {
 				$this->session->set($this->tabela . '_cadastrado', '2');
 			}
-			return redirect()->to('consultaempresas');
+			return redirect()->to('consultapessoas');
 		} else {
 			$this->session->set($this->tabela . '_dados', $dados);
 			$this->session->set($this->tabela . '_erro', \Config\Services::validation()->listErrors());
-			return redirect()->to('novoempresas');
+			return redirect()->to('novopessoas');
 		}
 	}
 
@@ -350,6 +357,7 @@ class Empresa extends BaseController
 
 		$valida->setRules([
 			'nome' => ['label' => 'Nome', 'rules' => 'required|min_length[3]|max_length[255]'],
+			'id_grupo_pessoa' => ['label' => 'Grupo', 'rules' => 'required'],
 		]);
 
 		if ($valida->withRequest($this->request)->run()) {

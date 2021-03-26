@@ -46,7 +46,7 @@
 
 <script src="<?=base_url("js/menu.js") ?>"></script>
 
-<?php if (basename(strtolower($_SERVER['PHP_SELF'])) == "home") : ?>
+<?php if (basename(strtolower($_SERVER['PHP_SELF'])) == "consultadashboard") : ?>
     <?php echo '<script src="' . base_url("js/chart-bar.js") . '"></script>'; ?>    
 <?php else : ?>
     <?php echo '<script src="' . base_url("js/scripts.js") . '"></script>'; ?>    

@@ -473,6 +473,23 @@ class PadraoModel extends Model
 		return $results;
 	}
 
+		/**
+	 * Gerar Dados
+	 *
+	 * Generates a SELECT 
+	 *
+	 * @param Array $params Parametros
+	 *
+	 * @return Array
+	 */
+	function getQueryCustomTrio($sql)
+	{
+
+		$db = db_connect('trio');
+		$results = $db->query($sql)->getResultArray();
+		return $results;
+	}
+
 	/**
 	 * Insert
 	 *

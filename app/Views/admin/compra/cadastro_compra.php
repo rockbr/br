@@ -76,8 +76,8 @@
                                         <input class="form-control" value="<?= isset($dados['parcela']) ? $dados['parcela'] : '' ?>" type="number" id="parcela" name="parcela" min="1" max="36" required>
                                     </div>
                                     <div class="col-md-2 form-group">
-                                        <label class="small mb-1" for="quantidade">1° Vencimento</label>
-                                        <input class="form-control" value="<?= isset($dados['vencimento']) ? $dados['vencimento'] : '' ?>" type="number" id="vencimento" name="vencimento" min="1" max="31" required>
+                                    <label class="small mb-1" for="vencimento">1° Vencimento</label>
+                                            <input class="form-control" value="<?= isset($dados['vencimento']) ? $dados['vencimento'] : '' ?>" type="date" name="vencimento" id="vencimento" required>
                                     </div>
                                     <div class="col-md-4 form-group">
                                         <label class="small mb-1" for="quantidade">Parcelamento</label>
