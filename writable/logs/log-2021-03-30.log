@@ -1,0 +1,46 @@
+CRITICAL - 2021-03-30 07:48:04 --> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Operation timed out
+	Is the server running on host &quot;191.255.89.62&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/Users/vitor/Do...', 98, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(98): pg_connect('host=191.255.89...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(94): App\Models\PadraoModel->getQueryCustomTrio('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}
+CRITICAL - 2021-03-30 07:49:20 --> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Operation timed out
+	Is the server running on host &quot;191.255.89.62&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/Users/vitor/Do...', 98, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(98): pg_connect('host=191.255.89...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT to_char(...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Util.php(32): App\Models\PadraoModel->getQueryCustomTrio('SELECT to_char(...')
+#6 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(32): App\Controllers\Util->comboReceberMesAno()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->dashboard()
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#9 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#12 {main}
+CRITICAL - 2021-03-30 07:49:56 --> pg_query(): Query failed: ERROR:  relation &quot;fin_motivo_movto&quot; does not exist
+LINE 3: ...90D99') FROM fin_movimento_financeiro r LEFT JOIN fin_motivo...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/Users/vitor/Do...', 196, Array)
+#1 /Users/vitor/Documents/GitHub/br/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT 0 AS id,...')
+#2 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT 0 AS id,...')
+#3 /Users/vitor/Documents/GitHub/br/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 0 AS id,...')
+#4 /Users/vitor/Documents/GitHub/br/app/Models/PadraoModel.php(489): CodeIgniter\Database\BaseConnection->query('SELECT 0 AS id,...')
+#5 /Users/vitor/Documents/GitHub/br/app/Controllers/Fluxo.php(94): App\Models\PadraoModel->getQueryCustomTrio('SELECT 0 AS id,...')
+#6 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(914): App\Controllers\Fluxo->list()
+#7 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fluxo))
+#8 /Users/vitor/Documents/GitHub/br/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/vitor/Documents/GitHub/br/httpdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /Users/vitor/Documents/GitHub/br/system/Commands/Server/rewrite.php(34): require_once('/Users/vitor/Do...')
+#11 {main}

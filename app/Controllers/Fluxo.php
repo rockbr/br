@@ -69,25 +69,29 @@ class Fluxo extends BaseController
 		$sucesso = $this->session->get($this->tabela . '_cadastrado');
 		$this->session->set($this->tabela . '_cadastrado', null);
 
+		$filtroDataInicial = $this->request->getVar('filtro_data_inicial') == null ? ('01/' . date('M/Y')) : $this->request->getVar('filtro_data_inicial');
+		$filtroDataFinal = $this->request->getVar('filtro_data_final') == null ? date('d/M/Y') : $this->request->getVar('filtro_data_final');		
+
 		$data_header = array(
 			'titulo' => 'Fluxo',
 			'subtitulo' => 'FLUXO',
 			'session' => $this->session
 		);
 
-		$sql = 'SELECT 0 AS id, to_char((f.data_vencimento + INTERVAL \'1 day\'),\'DD/MM/YYYY\') AS data, 
+
+		$sql = 'SELECT 0 AS id, to_char(f.data_vencimento,\'DD/MM/YYYY\') AS data, 
         to_char(0.0,\'"R$ " 999G999G990D99\') AS caixa,
-        (SELECT to_char(SUM(r.valor),\'"R$ " 999G999G990D99\') FROM fin_movimento_financeiro r WHERE r.data_vencimento=f.data_vencimento AND r.baixada=FALSE AND r.id_tipo_movimento_financeiro=\'CR\') AS receb_total,
-        (SELECT to_char(SUM(p.valor),\'"R$ " 999G999G990D99\') FROM fin_movimento_financeiro p WHERE p.data_vencimento=f.data_vencimento AND p.baixada=FALSE AND p.id_tipo_movimento_financeiro=\'CP\') AS pgto,
-        to_char(0.0,\'"R$ " 999G999G990D99\')  AS adiantamento
+        (SELECT to_char(SUM(r.valor),\'"R$ " 999G999G990D99\') FROM fin_movimento_financeiro r LEFT JOIN fin_motivo_movto m ON (m.id=r.id_fin_motivo_movto) WHERE r.data_vencimento=f.data_vencimento AND r.baixada=FALSE AND r.id_tipo_movimento_financeiro=\'CR\' AND m.id_fin_tipo_motivo_movto=15) AS receber_boleto, 
+        (SELECT to_char(SUM(r.valor),\'"R$ " 999G999G990D99\') FROM fin_movimento_financeiro r LEFT JOIN fin_motivo_movto m ON (m.id=r.id_fin_motivo_movto) WHERE r.data_vencimento=f.data_vencimento AND r.baixada=FALSE AND r.id_tipo_movimento_financeiro=\'CR\' AND m.id_fin_tipo_motivo_movto!=15) AS receber_outros, 
+        (SELECT to_char(SUM(p.valor),\'"R$ " 999G999G990D99\') FROM fin_movimento_financeiro p WHERE p.data_vencimento=f.data_vencimento AND p.baixada=FALSE AND p.id_tipo_movimento_financeiro=\'CP\') AS pagar 
         FROM fin_movimento_financeiro f
-        WHERE f.baixada=FALSE AND f.data_vencimento >=\'2021-03-01\' AND f.data_vencimento <=\'2021-03-31\'
+        WHERE f.baixada=FALSE AND f.data_vencimento >=\'' . $filtroDataInicial . '\' AND f.data_vencimento <=\'' . $filtroDataFinal . '\'
         GROUP BY f.data_vencimento
         ORDER BY f.data_vencimento DESC';
 
 		$sqlCount = 'SELECT count(*) 
         FROM fin_movimento_financeiro f
-        WHERE f.baixada=FALSE AND f.data_vencimento >=\'2021-03-01\' AND f.data_vencimento <=\'2021-03-31\'
+        WHERE f.baixada=FALSE AND f.data_vencimento >=\'' . $filtroDataInicial . '\' AND f.data_vencimento <=\'' . $filtroDataFinal . '\'
         GROUP BY f.data_vencimento
         ORDER BY f.data_vencimento DESC';
 
@@ -95,8 +99,12 @@ class Fluxo extends BaseController
 		$table_count = $model->getQueryCustomTrio($sqlCount);
 
 		$data = array(
-			'table_thead' =>  array('Data', 'Caixa', 'Receb. Total', 'Pgto', 'Adiantamento'),
+			'table_thead' =>  array('Data', 'Caixa', 'Receber Boleto', 'Receber Outros', 'Pagar'),
 			'table_tbody' => $table_tbody,
+			'acoes_filtro' => array(
+				array('<', "Data Inicial", $filtroDataInicial, 'date', 'filtro_data_inicial'), //label, value, type, id
+				array('>', "Data Final", $filtroDataFinal, 'date', 'filtro_data_final'), //label, value, type, id			
+			),
 			'sucesso' => $sucesso,
 			'acoes_novo' => '',
 			'acoes_editar' => '',
